@@ -22,45 +22,35 @@ toc: false
 
 ```{=html}
 <div class="overview-grid">
-  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Mission">
+  <article class="overview-card">
     <span class="overview-kicker">Niveau 1</span>
     <strong class="overview-title">Mission</strong>
     <span class="overview-desc">Le niveau de vote parlementaire qui regroupe une politique publique.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Programme">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Niveau 2</span>
     <strong class="overview-title">Programme</strong>
     <span class="overview-desc">Le cœur de la spécialité des crédits et de la responsabilité de gestion.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Action">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Niveau 3</span>
     <strong class="overview-title">Action</strong>
     <span class="overview-desc">La subdivision utile pour suivre plus finement l'emploi des moyens.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Performance">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Pilotage</span>
     <strong class="overview-title">Performance</strong>
     <span class="overview-desc">Objectifs, indicateurs, PAP et RAP rendent la dépense évaluée.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Crédits">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Lecture pratique</span>
     <strong class="overview-title">Titres, AE et CP</strong>
     <span class="overview-desc">Les crédits se lisent aussi par nature économique et par temporalité.</span>
-  </button>
+  </article>
 </div>
 ```
 
 ## Explorer l'architecture {#explorer-larchitecture}
-
-```{=html}
-<div class="segmented-control">
-  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Mission">Mission</button>
-  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Programme">Programme</button>
-  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Action">Action</button>
-  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Performance">Performance</button>
-  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Crédits">Titres, AE et CP</button>
-</div>
-```
 
 ::: {.panel-tabset #architecture-tabs}
 

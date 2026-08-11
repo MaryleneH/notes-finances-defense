@@ -104,8 +104,7 @@ Les fichiers HTML sont générés dans le dossier `_site/`.
    - `.hand-note` — annotation manuscrite
    - `.question-card` — question pédagogique
    - `.local-nav` — navigation locale sticky
-   - `.overview-grid` / `.overview-card` — cartes cliquables pour ouvrir un contenu
-   - `.segmented-control` — boutons de bascule pour piloter un tabset Quarto
+   - `.overview-grid` / `.overview-card` — cartes d’orientation synthétiques
    - `::: {.panel-tabset}` — contenu principal en onglets
 
 ---

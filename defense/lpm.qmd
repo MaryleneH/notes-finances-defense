@@ -22,39 +22,30 @@ toc: false
 
 ```{=html}
 <div class="overview-grid">
-  <button type="button" class="overview-card" data-tabset-target="lpm-tabs" data-tab-target="Définition">
+  <article class="overview-card">
     <span class="overview-kicker">Base</span>
     <strong class="overview-title">Définition</strong>
     <span class="overview-desc">Une loi de programmation fixe une trajectoire pluriannuelle et des priorités.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="lpm-tabs" data-tab-target="LPM vs LFI">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Confusion fréquente</span>
     <strong class="overview-title">LPM vs LFI</strong>
     <span class="overview-desc">La LPM n'ouvre pas elle-même les crédits votés et exécutables.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="lpm-tabs" data-tab-target="Parcours budgétaire">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Mécanique</span>
     <strong class="overview-title">Parcours budgétaire</strong>
     <span class="overview-desc">De la trajectoire sur sept ans au vote annuel des crédits.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="lpm-tabs" data-tab-target="LPM 2024–2030">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Repère actuel</span>
     <strong class="overview-title">LPM 2024–2030</strong>
     <span class="overview-desc">Les priorités politiques et la prudence nécessaire sur les montants annuels.</span>
-  </button>
+  </article>
 </div>
 ```
 
 ## Explorer la LPM {#explorer-la-lpm}
-
-```{=html}
-<div class="segmented-control">
-  <button type="button" data-tabset-target="lpm-tabs" data-tab-target="Définition">Définition</button>
-  <button type="button" data-tabset-target="lpm-tabs" data-tab-target="LPM vs LFI">LPM vs LFI</button>
-  <button type="button" data-tabset-target="lpm-tabs" data-tab-target="Parcours budgétaire">Parcours budgétaire</button>
-  <button type="button" data-tabset-target="lpm-tabs" data-tab-target="LPM 2024–2030">LPM 2024–2030</button>
-</div>
-```
 
 ::: {.panel-tabset #lpm-tabs}
 

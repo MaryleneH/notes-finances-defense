@@ -22,39 +22,30 @@ toc: false
 
 ```{=html}
 <div class="overview-grid">
-  <button type="button" class="overview-card" data-tabset-target="depenses-tabs" data-tab-target="Pourquoi">
+  <article class="overview-card">
     <span class="overview-kicker">Intérêt</span>
     <strong class="overview-title">Pourquoi ?</strong>
     <span class="overview-desc">Isoler ce que le gouvernement décide réellement, au-delà du seul déficit.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="depenses-tabs" data-tab-target="Calcul">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Méthode</span>
     <strong class="overview-title">Calcul</strong>
     <span class="overview-desc">Partir des dépenses publiques puis appliquer des retraitements réglementaires.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="depenses-tabs" data-tab-target="Comparaison">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Lecture</span>
     <strong class="overview-title">Comparaison</strong>
     <span class="overview-desc">Situer les dépenses nettes face au déficit, à la dette et au solde structurel.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="depenses-tabs" data-tab-target="France et règles">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Application</span>
     <strong class="overview-title">France et règles</strong>
     <span class="overview-desc">Comprendre ce qui change depuis 2024 sans croire que les seuils de Maastricht ont disparu.</span>
-  </button>
+  </article>
 </div>
 ```
 
 ## Explorer l'indicateur {#explorer-lindicateur}
-
-```{=html}
-<div class="segmented-control">
-  <button type="button" data-tabset-target="depenses-tabs" data-tab-target="Pourquoi">Pourquoi</button>
-  <button type="button" data-tabset-target="depenses-tabs" data-tab-target="Calcul">Calcul</button>
-  <button type="button" data-tabset-target="depenses-tabs" data-tab-target="Comparaison">Comparaison</button>
-  <button type="button" data-tabset-target="depenses-tabs" data-tab-target="France et règles">France et règles</button>
-</div>
-```
 
 ::: {.panel-tabset #depenses-tabs}
 

@@ -22,39 +22,30 @@ toc: false
 
 ```{=html}
 <div class="overview-grid">
-  <button type="button" class="overview-card" data-tabset-target="aecp-tabs" data-tab-target="AE vs CP">
+  <article class="overview-card">
     <span class="overview-kicker">Intuition</span>
     <strong class="overview-title">AE vs CP</strong>
     <span class="overview-desc">Jusqu'où l'État peut-il signer ? Combien peut-il payer cette année ?</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="aecp-tabs" data-tab-target="Frégate">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Exemple</span>
     <strong class="overview-title">Frégate fictive</strong>
     <span class="overview-desc">Une commande de 600 M€ étalée sur trois exercices.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="aecp-tabs" data-tab-target="Pourquoi c'est utile">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Usage</span>
     <strong class="overview-title">Pourquoi c'est utile</strong>
     <span class="overview-desc">La défense a besoin d'engager sur le long terme sans tout payer immédiatement.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="aecp-tabs" data-tab-target="Restes à payer">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Suivi</span>
     <strong class="overview-title">Restes à payer</strong>
     <span class="overview-desc">L'écart entre AE consommées et CP déjà payés.</span>
-  </button>
+  </article>
 </div>
 ```
 
 ## Explorer AE / CP {#explorer-ae-cp}
-
-```{=html}
-<div class="segmented-control">
-  <button type="button" data-tabset-target="aecp-tabs" data-tab-target="AE vs CP">AE vs CP</button>
-  <button type="button" data-tabset-target="aecp-tabs" data-tab-target="Frégate">Frégate</button>
-  <button type="button" data-tabset-target="aecp-tabs" data-tab-target="Pourquoi c'est utile">Pourquoi c'est utile</button>
-  <button type="button" data-tabset-target="aecp-tabs" data-tab-target="Restes à payer">Restes à payer</button>
-</div>
-```
 
 ::: {.panel-tabset #aecp-tabs}
 
