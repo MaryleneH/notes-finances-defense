@@ -1,0 +1,51 @@
+---
+title: "À propos"
+description: "Présentation du projet de notes visuelles sur les finances publiques françaises."
+toc: false
+---
+
+## Ce projet
+
+Ce site rassemble des notes personnelles de formation en finances publiques françaises. Il est conçu pour explorer progressivement les mécanismes budgétaires français — du principe d'annualité aux subtilités de la programmation militaire pluriannuelle.
+
+## Pourquoi ce site ?
+
+Les finances publiques sont souvent présentées de manière aride : textes juridiques denses, tableaux austères, accumulation de chiffres. L'objectif ici est opposé :
+
+- **partir de l'intuition** avant la définition technique ;
+- **illustrer par l'exemple** avant de généraliser ;
+- **schématiser** ce qui peut l'être ;
+- **citer les sources primaires** systématiquement.
+
+## Ce que ce site n'est pas
+
+::: {.warning}
+**Attention**
+
+Ces notes ne constituent pas un avis juridique, financier ou comptable. Elles ne se substituent pas aux textes officiels (Légifrance, budget.gouv.fr, EUR-Lex). Toute décision devrait s'appuyer sur les textes sources.
+:::
+
+## Sources utilisées
+
+Ce site s'appuie exclusivement sur des sources institutionnelles primaires :
+
+- Légifrance
+- Direction du Budget / budget.gouv.fr
+- Ministère des Armées
+- EUR-Lex / Commission européenne
+- Cour des comptes
+- Assemblée nationale / Sénat
+
+## Structure du site
+
+```
+fondamentaux/    → principes généraux, LOLF
+defense/         → LPM, Mission Défense, AE/CP
+europe/          → cadre budgétaire européen
+glossaire        → définitions et abréviations
+sources          → bibliographie thématique
+```
+
+## Comment contribuer ou signaler une erreur
+
+Ce site est hébergé sur GitHub. Toute correction ou suggestion peut être soumise via les [issues du dépôt](https://github.com/MaryleneH/notes-finances-defense/issues).

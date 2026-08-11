@@ -1,0 +1,72 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Finances publiques"
+  description: "Notes visuelles et pédagogiques sur les finances publiques françaises"
+  favicon: assets/icons/favicon.svg
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    logo: assets/icons/logo.svg
+    logo-alt: "Finances publiques — retour à l'accueil"
+    left:
+      - text: "Fondamentaux"
+        menu:
+          - text: "Vue d'ensemble"
+            href: fondamentaux/index.qmd
+          - text: "Les quatre principes budgétaires"
+            href: fondamentaux/principes-budgetaires.qmd
+          - text: "Architecture de la LOLF"
+            href: fondamentaux/architecture-lolf.qmd
+      - text: "Défense & LPM"
+        menu:
+          - text: "Vue d'ensemble"
+            href: defense/index.qmd
+          - text: "La LPM 2024-2030"
+            href: defense/lpm.qmd
+          - text: "Mission Défense"
+            href: defense/mission-defense.qmd
+          - text: "AE et CP"
+            href: defense/ae-cp.qmd
+      - text: "Europe"
+        menu:
+          - text: "Vue d'ensemble"
+            href: europe/index.qmd
+          - text: "Les dépenses nettes"
+            href: europe/depenses-nettes.qmd
+      - text: "Glossaire"
+        href: glossaire.qmd
+      - text: "Sources"
+        href: sources.qmd
+    right:
+      - text: "À propos"
+        href: about.qmd
+  page-footer:
+    left: "Notes personnelles de formation — finances publiques françaises"
+    right:
+      - text: "À propos"
+        href: about.qmd
+      - text: "Sources"
+        href: sources.qmd
+  page-navigation: true
+  reader-mode: true
+
+format:
+  html:
+    theme:
+      light: [flatly, styles.scss]
+    toc: true
+    toc-depth: 3
+    toc-title: "Sur cette page"
+    number-sections: false
+    anchor-sections: true
+    smooth-scroll: true
+    highlight-style: github
+    code-copy: true
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 200px

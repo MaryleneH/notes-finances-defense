@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="Schéma AE/CP pour une frégate fictive de 600 M€ sur 3 ans : Année 1 signature du contrat 600 M€ AE et 50 M€ CP ; Année 2 construction 250 M€ CP ; Année 3 livraison 300 M€ CP — total CP cumulé 600 M€">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', system-ui, sans-serif; }
+      .hand { font-family: 'Caveat', cursive, 'Comic Sans MS', cursive; }
+      .year-label { font-size: 20px; font-weight: 700; fill: #1F2933; }
+      .ae-t { font-size: 13px; font-weight: 700; fill: #2563EB; }
+      .cp-t { font-size: 13px; font-weight: 700; fill: #E8603A; }
+      .small-note { font-size: 11px; fill: #667085; }
+    </style>
+  </defs>
+
+  <rect width="720" height="300" fill="#FCFBF8" rx="16"/>
+
+  <!-- Title band -->
+  <rect x="200" y="16" width="320" height="36" rx="8" fill="#F5F6F4"/>
+  <text x="360" y="40" text-anchor="middle" font-size="14" font-weight="700" fill="#1F2933">Frégate fictive — 600 M€ — exemple pédagogique</text>
+
+  <!-- Year columns -->
+  <!-- Year 1 -->
+  <rect x="36" y="70" width="192" height="196" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="132" y="100" text-anchor="middle" class="year-label">2027</text>
+  <text x="132" y="118" text-anchor="middle" font-size="11" fill="#667085" class="hand">Signature du contrat</text>
+
+  <!-- AE bar year 1 -->
+  <rect x="54" y="130" width="156" height="34" rx="6" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="132" y="152" text-anchor="middle" class="ae-t">AE  600 M€</text>
+
+  <!-- CP bar year 1 -->
+  <rect x="54" y="174" width="30" height="34" rx="6" fill="#FEF2EE" stroke="#E8603A" stroke-width="1.5"/>
+  <rect x="54" y="174" width="156" height="34" rx="6" fill="none" stroke="#E8603A" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="132" y="196" text-anchor="middle" class="cp-t">CP   50 M€</text>
+
+  <text x="132" y="244" text-anchor="middle" class="small-note">reste à payer : 550 M€</text>
+  <text x="132" y="258" text-anchor="middle" class="hand" font-size="13" fill="#98A6B9">l'État s'engage…</text>
+
+  <!-- Year 2 -->
+  <rect x="264" y="70" width="192" height="196" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="360" y="100" text-anchor="middle" class="year-label">2028</text>
+  <text x="360" y="118" text-anchor="middle" font-size="11" fill="#667085" class="hand">Construction</text>
+
+  <!-- AE 0 -->
+  <rect x="282" y="130" width="156" height="34" rx="6" fill="#F5F6F4" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="360" y="152" text-anchor="middle" class="ae-t" style="opacity:.4">AE  0</text>
+
+  <!-- CP bar year 2 -->
+  <rect x="282" y="174" width="107" height="34" rx="6" fill="#FEF2EE" stroke="#E8603A" stroke-width="1.5"/>
+  <text x="360" y="196" text-anchor="middle" class="cp-t">CP  250 M€</text>
+
+  <text x="360" y="244" text-anchor="middle" class="small-note">reste à payer : 300 M€</text>
+  <text x="360" y="258" text-anchor="middle" class="hand" font-size="13" fill="#98A6B9">…mais paie progressivement</text>
+
+  <!-- Year 3 -->
+  <rect x="492" y="70" width="192" height="196" rx="12" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+  <text x="588" y="100" text-anchor="middle" class="year-label">2029</text>
+  <text x="588" y="118" text-anchor="middle" font-size="11" fill="#667085" class="hand">Livraison</text>
+
+  <!-- AE 0 -->
+  <rect x="510" y="130" width="156" height="34" rx="6" fill="#F5F6F4" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="588" y="152" text-anchor="middle" class="ae-t" style="opacity:.4">AE  0</text>
+
+  <!-- CP bar year 3 full -->
+  <rect x="510" y="174" width="156" height="34" rx="6" fill="#FEF2EE" stroke="#E8603A" stroke-width="1.5"/>
+  <text x="588" y="196" text-anchor="middle" class="cp-t">CP  300 M€</text>
+
+  <text x="588" y="244" text-anchor="middle" class="small-note">CP cumulés : 600 M€ ✓</text>
+  <text x="588" y="258" text-anchor="middle" class="hand" font-size="13" fill="#059669">contrat soldé</text>
+
+  <!-- Bottom equation -->
+  <text x="360" y="285" text-anchor="middle" font-size="12" font-weight="700" fill="#1F2933">AE consommées : 600 M€  =  CP cumulés : 50 + 250 + 300 M€</text>
+</svg>

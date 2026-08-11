@@ -1,0 +1,241 @@
+---
+title: "Les dépenses nettes — le nouveau thermomètre budgétaire européen"
+description: "Comprendre la notion de trajectoire de dépenses nettes introduite par la réforme de la gouvernance économique européenne de 2024."
+toc: true
+---
+
+<p class="section-label">Europe · Fiche 01</p>
+
+# Les dépenses nettes
+
+<p class="page-tagline">Le nouveau thermomètre de la surveillance budgétaire européenne.</p>
+
+---
+
+## Intuition
+
+::: {.question-card}
+::: {.question-text}
+Pourquoi ne pas se contenter de surveiller le déficit public ? Pourquoi créer un nouvel indicateur ?
+:::
+:::
+
+Le déficit public mesure l'écart entre recettes et dépenses à un instant donné. Mais cet indicateur est sensible aux fluctuations économiques : en récession, le déficit se creuse automatiquement (moins de recettes, plus de dépenses sociales), sans que cela résulte d'une décision discrétionnaire du gouvernement.
+
+Les **dépenses nettes** permettent de se concentrer sur ce que le gouvernement **décide réellement**, en éliminant les effets purement mécaniques du cycle économique.
+
+---
+
+## Le cadre réglementaire
+
+La réforme de la gouvernance économique européenne, entrée en vigueur en **2024**, repose notamment sur deux règlements :
+
+- **Règlement (UE) 2024/1263** du Parlement européen et du Conseil du 29 avril 2024 concernant la coordination efficace des politiques économiques et la surveillance budgétaire multilatérale
+- **Règlement (UE) 2024/1264** du Conseil du 29 avril 2024 modifiant le règlement (CE) n° 1467/97 (procédure de déficit excessif)
+
+::: {.concept}
+::: {.concept-label}
+Source réglementaire
+:::
+Ces règlements constituent le cadre juridique primaire. Toute analyse des dépenses nettes devrait s'appuyer sur leurs définitions précises, disponibles sur EUR-Lex.
+:::
+
+---
+
+## Qu'est-ce que les dépenses nettes ?
+
+Les dépenses nettes ne se définissent pas simplement comme « les dépenses publiques moins les hausses d'impôts ». C'est une présentation inexacte et incomplète.
+
+Les dépenses nettes sont calculées à partir des **dépenses des administrations publiques** (au sens de la comptabilité nationale), après application d'une série de **retraitements** prévus par le règlement européen.
+
+### Les principaux retraitements
+
+```{=html}
+<div class="timeline">
+
+  <div class="timeline-item">
+    <div class="timeline-year">Retraitement 1 — Charges d'intérêts</div>
+    <div class="timeline-content">
+      Les dépenses d'intérêts de la dette publique sont exclues du calcul. 
+      Elles ne reflètent pas les décisions de dépense actuelles du gouvernement 
+      mais les conséquences de la dette accumulée.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Retraitement 2 — Mesures discrétionnaires en recettes</div>
+    <div class="timeline-content">
+      Les mesures nouvelles de recettes (hausses ou baisses d'impôts décidées par le gouvernement) 
+      sont intégrées dans le calcul, en miroir des dépenses. 
+      Un gouvernement qui baisse les impôts tout en maîtrisant ses dépenses doit en rendre compte.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Retraitement 3 — Flux liés aux programmes de l'Union européenne</div>
+    <div class="timeline-content">
+      Certains flux financiers liés à des programmes européens (fonds structurels, RRF, etc.) 
+      font l'objet de retraitements spécifiques pour éviter de pénaliser les États qui 
+      utilisent ces financements.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Retraitement 4 — Composante cyclique des dépenses de chômage</div>
+    <div class="timeline-content">
+      La partie des indemnisations chômage qui résulte mécaniquement du cycle économique 
+      (et non d'une décision de politique publique) est neutralisée.
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-year">Retraitement 5 — Mesures ponctuelles et temporaires</div>
+    <div class="timeline-content">
+      Les dépenses ponctuelles et non reconductibles (certaines aides d'urgence, certains programmes exceptionnels) 
+      peuvent être exclues du calcul pour ne pas biaiser la trajectoire structurelle.
+    </div>
+  </div>
+
+</div>
+```
+
+::: {.diagram-container}
+![Schéma de construction des dépenses nettes à partir des dépenses des APU](../assets/diagrams/depenses-nettes.svg){width="100%" alt="Schéma illustrant les étapes de calcul des dépenses nettes : dépenses APU, retraitements, dépenses nettes, trajectoire, surveillance européenne"}
+:::
+
+::: {.diagram-caption}
+De la dépense brute aux dépenses nettes — une construction réglementaire précise
+:::
+
+---
+
+## Pourquoi cet indicateur ?
+
+L'indicateur de dépenses nettes présente plusieurs avantages par rapport aux indicateurs traditionnels :
+
+1. **Il mesure l'action discrétionnaire** du gouvernement, pas les effets automatiques du cycle.
+2. **Il est moins volatile** que le déficit public, donc plus adapté à une surveillance pluriannuelle.
+3. **Il est plus lisible** pour des engagements de moyen terme.
+4. **Il intègre les recettes** : un État qui baisse les impôts mais maîtrise ses dépenses n'échappe pas à la surveillance.
+
+---
+
+## Comparaison des indicateurs budgétaires
+
+```{=html}
+<div class="entry-cards" style="grid-template-columns: repeat(auto-fill, minmax(200px,1fr))">
+
+  <div class="entry-card" style="cursor:default;border-color:var(--coral)">
+    <div class="card-title" style="color:var(--coral)">Déficit public</div>
+    <div class="card-desc">Recettes – Dépenses. Simple mais très sensible au cycle économique. Seuil de référence : 3 % du PIB.</div>
+  </div>
+
+  <div class="entry-card" style="cursor:default;border-color:var(--yellow)">
+    <div class="card-title" style="color:var(--yellow)">Dette publique</div>
+    <div class="card-desc">Accumulation des déficits passés. Stock de passif de l'État. Seuil de référence : 60 % du PIB.</div>
+  </div>
+
+  <div class="entry-card" style="cursor:default;border-color:var(--violet)">
+    <div class="card-title" style="color:var(--violet)">Solde structurel</div>
+    <div class="card-desc">Déficit corrigé du cycle économique. Mesure l'effort budgétaire « sous-jacent ».</div>
+  </div>
+
+  <div class="entry-card" style="cursor:default;border-color:var(--blue)">
+    <div class="card-title" style="color:var(--blue)">Dépenses nettes</div>
+    <div class="card-desc">Indicateur de surveillance depuis 2024. Se concentre sur les dépenses discrétionnaires, après retraitements. Objet d'une trajectoire pluriannuelle négociée.</div>
+  </div>
+
+</div>
+```
+
+---
+
+## Les règles des 3 % et 60 % ont-elles disparu ?
+
+Non. Les règles issues du traité de Maastricht et du Pacte de stabilité et de croissance (3 % pour le déficit public, 60 % pour la dette) **demeurent** les seuils de référence du cadre budgétaire européen.
+
+Ce qui a changé en 2024, c'est la **logique opérationnelle de surveillance** :
+
+- Les États membres dont les finances publiques sont saines s'engagent sur une **trajectoire de dépenses nettes** pour la période de planification.
+- Cette trajectoire est le principal outil de surveillance dans le cadre normal.
+- Les règles de 3 % et 60 % continuent de s'appliquer et déclenchent la procédure de déficit excessif (PDE) si elles sont franchies.
+
+::: {.warning}
+::: {.warning-label}
+Simplification à éviter
+:::
+Il ne faut pas présenter la réforme de 2024 comme un abandon des règles numériques traditionnelles. Il s'agit plutôt d'un **déplacement du centre de gravité** de la surveillance vers un outil plus adapté à la conduite pluriannuelle de la politique budgétaire.
+:::
+
+---
+
+## La trajectoire pour la France
+
+::: {.warning}
+::: {.warning-label}
+Vérification requise
+:::
+La trajectoire spécifique approuvée pour la France doit être vérifiée auprès des sources officielles les plus récentes : Commission européenne, Conseil de l'Union européenne. Les chiffres précis de trajectoire ne sont pas reproduits ici afin d'éviter toute erreur ou obsolescence.
+:::
+
+Pour consulter les documents officiels relatifs à la France :
+
+- **Commission européenne** : [ec.europa.eu/info/business-economy-euro](https://ec.europa.eu/info/business-economy-euro/economic-and-fiscal-policy-coordination/eu-economic-governance-monitoring-prevention-correction_fr)
+- **Conseil de l'UE** : recommandations publiées dans le cadre du Semestre européen
+- **Direction du Budget** : [budget.gouv.fr](https://www.budget.gouv.fr)
+
+---
+
+## Sources & pour aller plus loin
+
+::: {.source-card}
+::: {.source-icon}🇪🇺:::
+:::
+**Règlement (UE) 2024/1263 du 29 avril 2024 — gouvernance économique européenne**
+::: {.source-inst}
+EUR-Lex / Parlement européen et Conseil
+:::
+[Consulter sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263)
+:::
+
+::: {.source-card}
+::: {.source-icon}🇪🇺:::
+:::
+**Règlement (UE) 2024/1264 du 29 avril 2024 — procédure de déficit excessif**
+::: {.source-inst}
+EUR-Lex / Conseil de l'Union européenne
+:::
+[Consulter sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1264)
+:::
+
+::: {.source-card}
+::: {.source-icon}📊:::
+:::
+**Surveillance budgétaire européenne — Commission européenne**
+::: {.source-inst}
+Commission européenne
+:::
+[Consulter ec.europa.eu](https://ec.europa.eu/info/business-economy-euro/economic-and-fiscal-policy-coordination/eu-economic-governance-monitoring-prevention-correction_fr)
+:::
+
+---
+
+::: {.page-navigation}
+::: {.nav-prev}
+::: {.nav-label}
+← Section précédente
+:::
+::: {.nav-title}
+[AE et CP — Défense](../defense/ae-cp.html)
+:::
+:::
+
+::: {.nav-next}
+::: {.nav-label}
+Référence →
+:::
+::: {.nav-title}
+[Glossaire](../glossaire.html)
+:::
+:::
+:::
