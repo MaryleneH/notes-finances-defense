@@ -103,6 +103,10 @@ Les fichiers HTML sont générés dans le dossier `_site/`.
    - `.source-card` — source officielle
    - `.hand-note` — annotation manuscrite
    - `.question-card` — question pédagogique
+   - `.local-nav` — navigation locale sticky
+   - `.overview-grid` / `.overview-card` — cartes cliquables pour ouvrir un contenu
+   - `.segmented-control` — boutons de bascule pour piloter un tabset Quarto
+   - `::: {.panel-tabset}` — contenu principal en onglets
 
 ---
 
@@ -154,4 +158,3 @@ Le workflow `.github/workflows/publish.yml` :
 
 Ce site s'appuie exclusivement sur des sources institutionnelles primaires :
 Légifrance, Direction du Budget, Ministère des Armées, EUR-Lex, Commission européenne, Cour des comptes, Assemblée nationale, Sénat.
-

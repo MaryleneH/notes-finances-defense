@@ -1,255 +1,202 @@
 ---
 title: "Les quatre principes budgétaires"
-description: "Annualité, unité, universalité, spécialité — les quatre questions fondamentales du droit budgétaire français, expliquées par l'exemple."
-toc: true
+description: "Annualité, unité, universalité, spécialité — les quatre questions fondamentales du droit budgétaire français, expliquées comme une interface de consultation."
+toc: false
 ---
 
 <p class="section-label">Fondamentaux · Fiche 01</p>
 
+# Les quatre principes budgétaires
+
+<p class="page-tagline">Quatre questions. Quatre vues. Une seule logique.</p>
+<p class="page-intro">Cette fiche se consulte comme un tableau de bord : choisir la question utile, ouvrir le principe correspondant, puis déplier seulement les détails nécessaires.</p>
+
 <nav class="local-nav">
   <a href="#vue-densemble">Vue d'ensemble</a>
-  <a href="#annualité-quand-">Annualité</a>
-  <a href="#unité-où-">Unité</a>
-  <a href="#universalité-comment-">Universalité</a>
-  <a href="#spécialité-pour-quoi-">Spécialité</a>
+  <a href="#explorer-les-principes">Explorer</a>
+  <a href="#repere-rapide">Repère rapide</a>
   <a href="#sources-pour-aller-plus-loin">Sources</a>
 </nav>
 
-# Les quatre principes budgétaires
-
-<p class="page-tagline">Quatre questions. Une seule cohérence.</p>
-
----
-
 ## Vue d'ensemble {#vue-densemble}
 
-### La même scène, quatre angles
-
-Imaginez que le Parlement autorise **100 millions d'euros** pour une politique universitaire au titre d'une année donnée.
-
-Cette scène simple soulève quatre questions distinctes :
-
-- **QUAND** cette autorisation est-elle valable ?
-- **OÙ** figure-t-elle dans le budget ?
-- **COMMENT** recettes et dépenses sont-elles comptabilisées ?
-- **POUR QUOI** précisément ces crédits peuvent-ils être utilisés ?
-
-Chacune de ces questions correspond à l'un des quatre grands principes du droit budgétaire.
+Choisissez d'abord la question à laquelle vous voulez répondre.
 
 ```{=html}
-<div class="four-q-grid">
-
-  <div class="four-q-card" style="background:var(--blue-pale);border-color:var(--blue)">
-    <div class="four-q-big" style="color:var(--blue)">QUAND ?</div>
-    <div class="four-q-label" style="color:var(--blue)">Principe d'</div>
-    <div class="four-q-name" style="color:var(--text)">Annualité</div>
-    <div class="four-q-desc">L'autorisation ne vaut que pour l'année civile au titre de laquelle elle a été votée.</div>
-  </div>
-
-  <div class="four-q-card" style="background:var(--cyan-pale);border-color:var(--cyan)">
-    <div class="four-q-big" style="color:var(--cyan)">OÙ ?</div>
-    <div class="four-q-label" style="color:var(--cyan)">Principe d'</div>
-    <div class="four-q-name" style="color:var(--text)">Unité</div>
-    <div class="four-q-desc">Toutes les recettes et toutes les dépenses figurent dans un seul et même document.</div>
-  </div>
-
-  <div class="four-q-card" style="background:var(--mint-pale);border-color:var(--mint)">
-    <div class="four-q-big" style="color:var(--mint)">COMMENT ?</div>
-    <div class="four-q-label" style="color:var(--mint)">Principe d'</div>
-    <div class="four-q-name" style="color:var(--text)">Universalité</div>
-    <div class="four-q-desc">Les recettes et les dépenses ne se compensent pas : on les présente toutes, dans leur intégralité.</div>
-  </div>
-
-  <div class="four-q-card" style="background:var(--violet-pale);border-color:var(--violet)">
-    <div class="four-q-big" style="color:var(--violet)">POUR QUOI ?</div>
-    <div class="four-q-label" style="color:var(--violet)">Principe de</div>
-    <div class="four-q-name" style="color:var(--text)">Spécialité</div>
-    <div class="four-q-desc">Les crédits sont votés pour une finalité précise — un programme — et ne peuvent être utilisés pour une autre sans autorisation.</div>
-  </div>
-
+<div class="overview-grid">
+  <button type="button" class="overview-card" data-tabset-target="principes-tabs" data-tab-target="Annualité">
+    <span class="overview-kicker">Quand ?</span>
+    <strong class="overview-title">Annualité</strong>
+    <span class="overview-desc">L'autorisation parlementaire vaut pour un exercice déterminé.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="principes-tabs" data-tab-target="Unité">
+    <span class="overview-kicker">Où ?</span>
+    <strong class="overview-title">Unité</strong>
+    <span class="overview-desc">Toutes les recettes et dépenses doivent apparaître dans la loi de finances.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="principes-tabs" data-tab-target="Universalité">
+    <span class="overview-kicker">Comment ?</span>
+    <strong class="overview-title">Universalité</strong>
+    <span class="overview-desc">On présente les flux pour leur montant brut, sans les masquer.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="principes-tabs" data-tab-target="Spécialité">
+    <span class="overview-kicker">Pour quoi ?</span>
+    <strong class="overview-title">Spécialité</strong>
+    <span class="overview-desc">Les crédits sont votés pour une finalité précise, pas pour un usage libre.</span>
+  </button>
 </div>
 ```
 
----
+## Explorer les principes {#explorer-les-principes}
 
-## 1. Annualité — QUAND ? {#annualité-quand-}
-
-### Intuition
-
-Une autorisation de dépense ne devrait pas valoir indéfiniment. Si le Parlement vote des crédits en 2024, il ne devrait pas être tenu d'honorer des paiements en 2030 sans s'y être à nouveau prononcé.
-
-### Définition
-
-::: {.concept}
-::: {.concept-label}
-Définition
-:::
-Le budget de l'État est autorisé pour **une année civile** (du 1er janvier au 31 décembre). Les crédits non consommés à la fin de l'exercice sont en principe annulés (sauf dispositions contraires prévues par la LOLF).
-:::
-
-### Exemple
-
-::: {.example}
-::: {.example-label}
-Exemple pédagogique
-:::
-Le Parlement vote 100 M€ pour la politique universitaire au titre de l'année **N**. Ces crédits ne peuvent être utilisés qu'en année N. En année N+1, une nouvelle loi de finances devra renouveler (et éventuellement modifier) cette autorisation.
-:::
-
-### Pourquoi ce principe existe-t-il ?
-
-Il garantit le **contrôle démocratique annuel** du Parlement sur les finances publiques. Sans lui, un gouvernement pourrait être autorisé à dépenser pour des années entières sans nouvelle délibération parlementaire.
-
-<details>
-<summary>Aménagements et exceptions</summary>
-
-<ul>
-  <li><strong>Les autorisations d'engagement (AE)</strong> permettent à l'État de s'engager juridiquement sur plusieurs années, même si les paiements (CP) se font exercice par exercice.</li>
-  <li><strong>Les reports de crédits</strong> permettent, sous conditions, de reporter des crédits non consommés sur l'exercice suivant.</li>
-  <li>Les opérations d'inventaire de fin d'exercice permettent de rattacher certaines opérations à l'exercice qui leur correspond.</li>
-</ul>
-
-<div class="remember">
-  <p>L'annualité concerne l'<strong>autorisation</strong> parlementaire — pas nécessairement la durée réelle des projets. Un projet pluriannuel peut être autorisé annuellement par tranches.</p>
+```{=html}
+<div class="segmented-control">
+  <button type="button" data-tabset-target="principes-tabs" data-tab-target="Annualité">Annualité</button>
+  <button type="button" data-tabset-target="principes-tabs" data-tab-target="Unité">Unité</button>
+  <button type="button" data-tabset-target="principes-tabs" data-tab-target="Universalité">Universalité</button>
+  <button type="button" data-tabset-target="principes-tabs" data-tab-target="Spécialité">Spécialité</button>
 </div>
+```
 
-</details>
+::: {.panel-tabset #principes-tabs}
 
----
+## Annualité
 
-## 2. Unité — OÙ ? {#unité-où-}
-
-### Intuition
-
-Imaginez un gouvernement qui, pour masquer ses dépenses militaires, les présenterait dans un document séparé du budget général. Le Parlement serait trompé. Le principe d'unité interdit cette fragmentation.
-
-### Définition
+L'autorisation budgétaire est **temporaire** : le Parlement vote pour l'année civile, pas pour une durée indéfinie.
 
 ::: {.concept}
 ::: {.concept-label}
 Définition
 :::
-L'ensemble des recettes et des dépenses de l'État doit être présenté **dans un document unique** : la loi de finances. Ce principe garantit une vision d'ensemble et facilite le contrôle parlementaire.
+Les crédits ouverts en loi de finances valent en principe du **1er janvier au 31 décembre**. En fin d'exercice, les crédits non consommés sont annulés sauf mécanisme légal contraire.
 :::
-
-### Exemple
 
 ::: {.example}
 ::: {.example-label}
 Exemple
 :::
-Les 100 M€ pour la politique universitaire ne peuvent pas figurer dans un document parallèle, un « budget annexe non officiel » ou une annexe séparée. Ils doivent apparaître dans la loi de finances soumise au Parlement.
+Si 100 M€ sont votés pour l'université en année N, ces crédits ne valent pas automatiquement en année N+1. Une nouvelle loi de finances doit reprendre l'autorisation.
+:::
+
+::: {.remember}
+L'annualité protège le **contrôle démocratique régulier** du Parlement : chaque année, l'autorisation est rediscutée.
 :::
 
 <details>
-<summary>Aménagements et exceptions</summary>
+<summary>Voir les aménagements utiles</summary>
 
-<p>La LOLF reconnaît plusieurs exceptions légalement encadrées :</p>
-
-<ul>
-  <li><strong>Les budgets annexes</strong> (ex : publications officielles)</li>
-  <li><strong>Les comptes spéciaux</strong> (comptes d'affectation spéciale, comptes de concours financiers, etc.)</li>
-</ul>
-
-<p>Ces exceptions sont strictement délimitées et restent soumises au vote du Parlement.</p>
-
-<div class="warning">
-  <div class="warning-label">Attention à la confusion fréquente</div>
-  <p>L'unité de présentation ne signifie pas qu'il n'existe qu'un seul type de recettes ou de dépenses. Elle signifie que tout cela doit <strong>figurer dans la même loi de finances</strong>, même si c'est dans des sections ou des comptes différents.</p>
-</div>
+- Les **AE** permettent d'engager un contrat pluriannuel.
+- Les **CP** restent votés et consommés année par année.
+- Les **reports de crédits** existent mais demeurent encadrés.
 
 </details>
 
----
+## Unité
 
-## 3. Universalité — COMMENT ? {#universalité-comment-}
-
-### Intuition
-
-Supposez qu'un ministère soit autorisé à « s'autofinancer » en gardant ses recettes propres pour couvrir ses dépenses. Le Parlement ne verrait alors ni les recettes ni les dépenses réelles. Le principe d'universalité interdit cette opacité.
-
-### Définition
+Le budget doit rester **lisible d'un seul regard** : on ne disperse pas les dépenses de l'État dans des documents parallèles.
 
 ::: {.concept}
 ::: {.concept-label}
 Définition
 :::
-Le principe d'universalité repose sur deux règles :
-
-1. **Non-contraction** : les recettes et les dépenses ne doivent pas être compensées entre elles ; elles doivent figurer pour leur montant brut.
-2. **Non-affectation** : en principe, une recette ne doit pas être affectée à une dépense particulière.
+Le principe d'unité impose que l'ensemble des recettes et des dépenses de l'État soit présenté dans la **loi de finances**, afin de garantir une vue d'ensemble au Parlement.
 :::
-
-### Exemple
 
 ::: {.example}
 ::: {.example-label}
 Exemple
 :::
-Si l'université perçoit des droits d'inscription (recette), ces recettes ne peuvent pas être simplement déduites des dépenses universitaires pour ne présenter que le solde net. Il faut présenter **les 100 M€ de dépenses** d'un côté **et les recettes** de l'autre.
+Les 100 M€ d'une politique universitaire ne peuvent pas être cachés dans un document officieux séparé du budget général.
+:::
+
+::: {.remember}
+L'unité vise la **transparence de présentation** : un budget éclaté empêche de juger l'ensemble des choix publics.
 :::
 
 <details>
-<summary>Aménagements et exceptions</summary>
+<summary>Voir les exceptions prévues par la LOLF</summary>
 
-<ul>
-  <li>Les <strong>comptes d'affectation spéciale</strong> constituent l'exception principale : certaines recettes peuvent y être affectées à des dépenses précises.</li>
-  <li>La <strong>non-contraction</strong> admet des exceptions dans certains budgets annexes et opérations comptables spécifiques.</li>
-</ul>
+- **Budgets annexes**
+- **Comptes spéciaux**
+
+Ces exceptions restent légales, limitées et soumises au vote du Parlement.
 
 </details>
 
----
+## Universalité
 
-## 4. Spécialité — POUR QUOI ? {#spécialité-pour-quoi-}
+Le budget doit montrer les flux **dans leur intégralité** : on ne masque pas une dépense en la compensant avec une recette.
 
-### Intuition
+::: {.concept}
+::: {.concept-label}
+Définition
+:::
+L'universalité combine deux règles : **non-contraction** (pas de compensation entre recettes et dépenses) et **non-affectation** (une recette n'est pas, par principe, réservée à une dépense précise).
+:::
 
-Si le Parlement vote simplement « 100 Md€ pour les dépenses de l'État », sans préciser pour quoi, il perd tout contrôle sur l'utilisation effective de l'argent. Le principe de spécialité est la réponse à ce risque.
+::: {.example}
+::: {.example-label}
+Exemple
+:::
+Si une université perçoit des recettes propres, elles ne doivent pas être simplement déduites des dépenses présentées. Il faut montrer recettes et dépenses séparément.
+:::
 
-### Définition
+::: {.remember}
+L'objectif est d'éviter une présentation **trop flatteuse ou incomplète** des finances publiques.
+:::
+
+<details>
+<summary>Voir les principales dérogations</summary>
+
+- Certains **comptes d'affectation spéciale** autorisent une affectation précise.
+- Certaines opérations comptables admettent des exceptions de **non-contraction**.
+
+</details>
+
+## Spécialité
+
+Le Parlement n'autorise pas « une grosse enveloppe ». Il autorise des crédits pour une **finalité définie**.
 
 ::: {.concept}
 ::: {.concept-label}
 Définition (LOLF, art. 7)
 :::
-Les crédits sont **spécialisés par programme**. Un programme regroupe les crédits destinés à mettre en œuvre une action ou un ensemble cohérent d'actions relevant d'un même ministère. Les crédits d'un programme ne peuvent, en principe, être utilisés pour financer les dépenses d'un autre programme.
+Les crédits sont spécialisés par **programme**. Ils ne peuvent pas, en principe, financer librement une autre politique sans mouvement de crédits autorisé.
 :::
-
-### Exemple
 
 ::: {.example}
 ::: {.example-label}
 Exemple
 :::
-Les 100 M€ votés pour la politique universitaire le sont **au sein d'un programme précis**. Le gestionnaire ne peut pas les utiliser pour financer la réparation d'une route, même si l'urgence s'impose. Cela nécessiterait un mouvement de crédits autorisé.
+Des crédits votés pour la politique universitaire ne peuvent pas être redéployés vers la réparation d'une route sans base juridique adaptée.
+:::
+
+::: {.remember}
+La spécialité donne au vote parlementaire un **sens concret** : l'autorisation porte sur un objet identifiable.
 :::
 
 <details>
-<summary>Aménagements et mise en œuvre</summary>
+<summary>Voir la souplesse réelle de gestion</summary>
 
-<p>La spécialité par programme est particulièrement visible dans le domaine de la Défense. Les quatre programmes de la Mission Défense (144, 146, 178, 212) ont chacun une finalité précise. Les crédits votés pour l'équipement des forces (P146) ne sont pas automatiquement fongibles avec ceux destinés à la préparation opérationnelle (P178).</p>
-
-<div class="warning">
-  <div class="warning-label">Ne pas exagérer la rigidité</div>
-  <p>La LOLF prévoit plusieurs mécanismes légaux de <strong>mouvement de crédits</strong> (virements, transferts, etc.) permettant d'ajuster l'exécution budgétaire. La spécialité encadre — elle ne fige pas totalement.</p>
-</div>
+La spécialité n'interdit pas tout ajustement. La LOLF autorise des **virements**, **transferts** et autres mouvements de crédits, mais dans un cadre contrôlé.
 
 </details>
 
----
+:::
 
-## Vue d'ensemble : le schéma des quatre principes
+## Repère rapide {#repere-rapide}
 
 ::: {.diagram-container}
 ![Les quatre principes budgétaires réunis autour du concept de BUDGET](../assets/diagrams/quatre-principes.svg){width="100%" alt="Schéma des quatre principes budgétaires : Annualité (QUAND ?), Unité (OÙ ?), Universalité (COMMENT ?), Spécialité (POUR QUOI ?)"}
 :::
 
 ::: {.diagram-caption}
-Quatre questions, une cohérence — les principes classiques du droit budgétaire français
+Un repère visuel pour retenir la bonne question avant de chercher le détail.
 :::
 
----
+::: {.remember}
+Quand vous lisez un budget, posez toujours ces quatre questions dans cet ordre : **quand**, **où**, **comment**, **pour quoi**.
+:::
 
 ## Sources & pour aller plus loin {#sources-pour-aller-plus-loin}
 

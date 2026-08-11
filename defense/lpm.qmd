@@ -1,168 +1,185 @@
 ---
 title: "La LPM 2024–2030"
-description: "Comprendre ce qu'est une loi de programmation militaire, comment elle se distingue d'une loi de finances annuelle, et comment la LPM 2024-2030 se traduit en crédits budgétaires."
-toc: true
+description: "Comprendre la loi de programmation militaire par vues distinctes : définition, différence avec la loi de finances, parcours budgétaire et repères 2024-2030."
+toc: false
 ---
 
 <p class="section-label">Défense & LPM · Fiche 01</p>
 
+# La loi de programmation militaire
+
+<p class="page-tagline">Une trajectoire politique, pas une caisse déjà remplie.</p>
+<p class="page-intro">Cette page sépare les usages les plus fréquents : comprendre ce qu'est une LPM, la distinguer d'une LFI, suivre sa traduction budgétaire et situer la LPM 2024–2030.</p>
+
 <nav class="local-nav">
-  <a href="#définition">Définition</a>
-  <a href="#la-distinction-fondamentale">LPM vs LFI</a>
-  <a href="#le-passage-de-la-lpm-aux-crédits-budgétaires">Parcours</a>
-  <a href="#la-lpm-2024-2030">LPM 2024–2030</a>
+  <a href="#vue-densemble">Vue d'ensemble</a>
+  <a href="#explorer-la-lpm">Explorer</a>
+  <a href="#repere-a-retenir">Repère</a>
   <a href="#sources-pour-aller-plus-loin">Sources</a>
 </nav>
 
-# La loi de programmation militaire
+## Vue d'ensemble {#vue-densemble}
 
-<p class="page-tagline">Une intention pluriannuelle qui ne vaut que si le Parlement la confirme chaque année.</p>
+```{=html}
+<div class="overview-grid">
+  <button type="button" class="overview-card" data-tabset-target="lpm-tabs" data-tab-target="Définition">
+    <span class="overview-kicker">Base</span>
+    <strong class="overview-title">Définition</strong>
+    <span class="overview-desc">Une loi de programmation fixe une trajectoire pluriannuelle et des priorités.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="lpm-tabs" data-tab-target="LPM vs LFI">
+    <span class="overview-kicker">Confusion fréquente</span>
+    <strong class="overview-title">LPM vs LFI</strong>
+    <span class="overview-desc">La LPM n'ouvre pas elle-même les crédits votés et exécutables.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="lpm-tabs" data-tab-target="Parcours budgétaire">
+    <span class="overview-kicker">Mécanique</span>
+    <strong class="overview-title">Parcours budgétaire</strong>
+    <span class="overview-desc">De la trajectoire sur sept ans au vote annuel des crédits.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="lpm-tabs" data-tab-target="LPM 2024–2030">
+    <span class="overview-kicker">Repère actuel</span>
+    <strong class="overview-title">LPM 2024–2030</strong>
+    <span class="overview-desc">Les priorités politiques et la prudence nécessaire sur les montants annuels.</span>
+  </button>
+</div>
+```
 
----
+## Explorer la LPM {#explorer-la-lpm}
 
-## Intuition
+```{=html}
+<div class="segmented-control">
+  <button type="button" data-tabset-target="lpm-tabs" data-tab-target="Définition">Définition</button>
+  <button type="button" data-tabset-target="lpm-tabs" data-tab-target="LPM vs LFI">LPM vs LFI</button>
+  <button type="button" data-tabset-target="lpm-tabs" data-tab-target="Parcours budgétaire">Parcours budgétaire</button>
+  <button type="button" data-tabset-target="lpm-tabs" data-tab-target="LPM 2024–2030">LPM 2024–2030</button>
+</div>
+```
 
-::: {.question-card}
-::: {.question-text}
-Si la France prévoit d'investir 413 Md€ dans sa défense sur sept ans, est-ce que cet argent est « dans une caisse » dès l'adoption de la loi ?
-:::
-:::
+::: {.panel-tabset #lpm-tabs}
 
-Non. Et c'est l'un des malentendus les plus répandus sur la LPM.
+## Définition
 
----
-
-## Qu'est-ce qu'une loi de programmation militaire ? {#définition}
-
-Une **loi de programmation militaire (LPM)** est une loi ordinaire — non organique — qui fixe, pour plusieurs années, le cadre de la politique de défense et une trajectoire indicative de ressources financières.
+Une **loi de programmation militaire** fixe pour plusieurs années le cadre de la politique de défense et une trajectoire indicative de ressources.
 
 ::: {.concept}
 ::: {.concept-label}
 Définition
 :::
-La LPM est une **loi de programmation** au sens de l'article 34 de la Constitution. Elle détermine les objectifs de l'action de l'État en matière de défense et prévoit une programmation pluriannuelle des ressources.
-
-Elle ne constitue **pas** une loi de finances. Elle ne crée pas de crédits budgétaires. Elle fixe un **cadre de référence** que les lois de finances annuelles sont censées respecter.
+La LPM est une **loi ordinaire** de programmation. Elle exprime des objectifs, des priorités et une trajectoire, mais elle **n'ouvre pas de crédits budgétaires exécutables**.
 :::
 
----
+::: {.remember}
+Une LPM engage surtout **politiquement** : elle sert de référence, pas d'autorisation annuelle de dépenser.
+:::
 
-## La distinction fondamentale {#la-distinction-fondamentale}
+## LPM vs LFI
+
+Le point clé est simple : **la LPM annonce**, la **LFI autorise**.
 
 ```{=html}
 <div class="versus">
   <div class="vs-left">
     <strong style="color:var(--blue)">LPM</strong><br>
-    <em>Loi de programmation</em><br><br>
-    Pluriannuelle (7 ans)<br>
-    Enveloppe prévisionnelle<br>
-    Pas de crédits budgétaires<br>
-    Valeur : engagement politique<br>
-    Modifiable par loi ordinaire<br>
-    N'engage pas le Parlement futur
+    <em>Programmation</em><br><br>
+    Vision pluriannuelle<br>
+    Priorités capacitaires<br>
+    Trajectoire indicative<br>
+    Pas de crédits ouverts
   </div>
   <div class="vs-divider">≠</div>
   <div class="vs-right">
     <strong style="color:var(--coral)">LFI</strong><br>
     <em>Loi de finances initiale</em><br><br>
-    Annuelle<br>
-    Crédits réels, votés<br>
-    Autorisation de dépenser<br>
-    Valeur : autorisation juridique<br>
-    Modifiable uniquement par loi de finances<br>
-    Engage le gouvernement pour l'année
+    Vote annuel<br>
+    Crédits réels<br>
+    Autorisation juridique<br>
+    Base de l'exécution
   </div>
 </div>
 ```
 
----
+<details>
+<summary>Voir pourquoi la confusion revient souvent</summary>
 
-## Le passage de la LPM aux crédits budgétaires {#le-passage-de-la-lpm-aux-crédits-budgétaires}
+Quand on annonce un montant global sur sept ans, il est tentant de croire que les fonds sont immédiatement disponibles. En réalité, chaque annuité doit être confirmée par une loi de finances.
+
+</details>
+
+## Parcours budgétaire
+
+La LPM devient concrète seulement lorsqu'elle est **traduite** dans le budget annuel.
 
 ```{=html}
 <div class="pathway">
-
   <div class="pathway-step">
     <div class="pathway-icon">01</div>
     <div class="pathway-content">
       <div class="pathway-label">Étape 1</div>
-      <div class="pathway-title">La LPM</div>
-      <div class="pathway-desc">Trajectoire pluriannuelle — aucun crédit ouvert à ce stade.</div>
+      <div class="pathway-title">LPM</div>
+      <div class="pathway-desc">Trajectoire pluriannuelle et priorités politiques.</div>
     </div>
   </div>
-
   <div class="pathway-step">
     <div class="pathway-icon">02</div>
     <div class="pathway-content">
       <div class="pathway-label">Étape 2</div>
-      <div class="pathway-title">Le PLF</div>
-      <div class="pathway-desc">Traduction budgétaire annuelle — crédits Mission Défense inscrits.</div>
+      <div class="pathway-title">PLF</div>
+      <div class="pathway-desc">Inscription des crédits de l'année dans le projet de loi de finances.</div>
     </div>
   </div>
-
   <div class="pathway-step">
     <div class="pathway-icon">03</div>
     <div class="pathway-content">
       <div class="pathway-label">Étape 3</div>
-      <div class="pathway-title">La LFI</div>
-      <div class="pathway-desc">Vote du Parlement — les crédits sont réellement autorisés.</div>
+      <div class="pathway-title">LFI</div>
+      <div class="pathway-desc">Vote du Parlement : les crédits sont réellement autorisés.</div>
     </div>
   </div>
-
   <div class="pathway-step">
     <div class="pathway-icon">04</div>
     <div class="pathway-content">
       <div class="pathway-label">Étape 4</div>
-      <div class="pathway-title">L'exécution</div>
-      <div class="pathway-desc">Engagements (AE) et paiements (CP) dans la limite des crédits votés.</div>
+      <div class="pathway-title">Exécution</div>
+      <div class="pathway-desc">Engagements et paiements dans la limite des crédits votés.</div>
     </div>
   </div>
-
 </div>
 ```
 
 ::: {.remember}
-La LPM est une **promesse encadrée**, pas une réservation de fonds. Chaque annuité doit être confirmée par la loi de finances correspondante. Un gouvernement futur peut, en théorie, déposer un projet de loi de finances qui s'écarte de la trajectoire LPM — sous réserve d'assumer les conséquences politiques et contractuelles.
+La bonne formule est : **LPM → PLF → LFI → exécution**.
 :::
 
----
+## LPM 2024–2030
 
-## La LPM 2024–2030 {#la-lpm-2024-2030}
-
-La loi n° 2023-703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030 a été promulguée le 1er août 2023.
+La loi n° 2023-703 du 1er août 2023 fixe la programmation militaire pour les années **2024 à 2030**.
 
 ::: {.concept}
 ::: {.concept-label}
-Source officielle
+Ce qu'elle donne surtout
 :::
-**Loi n° 2023-703 du 1er août 2023** relative à la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense.
-Disponible sur Légifrance.
+- une trajectoire pluriannuelle d'effort de défense ;
+- des priorités capacitaires : dissuasion, renseignement, cyber, espace, fonds marins ;
+- un cadre politique pour les futurs budgets annuels.
 :::
-
-La LPM 2024-2030 fixe notamment :
-
-- une **trajectoire d'effort national de défense** visant à atteindre l'objectif OTAN de 2 % du PIB ;
-- des priorités capacitaires : dissuasion, renseignement, cyber, fonds marins, espace, etc. ;
-- une programmation indicative par grands domaines d'équipement.
 
 ::: {.warning}
 ::: {.warning-label}
-Vérification nécessaire
+Point de vigilance
 :::
-Les montants annuels exacts inscrits en loi de finances peuvent différer de la trajectoire initiale LPM. Pour connaître les crédits effectivement votés pour une année donnée, il convient de consulter la loi de finances de cette année ainsi que les documents budgétaires officiels (PAP Mission Défense).
+Pour connaître les montants **effectivement votés** sur une année donnée, il faut toujours revenir à la loi de finances de l'année et aux documents budgétaires associés.
 :::
 
----
+:::
 
-## Pourquoi la distinction LPM / LFI est-elle essentielle ?
+## Repère à retenir {#repere-a-retenir}
 
-1. **Pour les industriels de défense** : un contrat signé dans le cadre de la LPM engage des paiements sur plusieurs années. Comprendre les AE et les CP est indispensable pour lire la réalité de ces engagements.
-
-2. **Pour le contrôle parlementaire** : le vote annuel de la LFI est le moment où le Parlement peut confirmer ou infléchir la trajectoire LPM.
-
-3. **Pour la lisibilité des chiffres** : annoncer « 413 Md€ sur sept ans » ne signifie pas qu'une telle somme est disponible immédiatement. Les paiements s'étalent sur toute la période.
-
----
+::: {.question-card}
+::: {.question-text}
+Si vous voyez un grand chiffre affiché sur sept ans, posez immédiatement cette question : **quelle part est réellement votée cette année ?**
+:::
+:::
 
 ## Sources & pour aller plus loin {#sources-pour-aller-plus-loin}
 

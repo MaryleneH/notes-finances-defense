@@ -1,29 +1,64 @@
 ---
 title: "AE et CP — Autorisations d'engagement et crédits de paiement"
-description: "Comprendre la différence entre autorisations d'engagement (AE) et crédits de paiement (CP) avec l'exemple pédagogique d'une frégate."
-toc: true
+description: "Consulter la distinction AE / CP par vues ciblées : intuition, frégate, utilité pour la défense et restes à payer."
+toc: false
 ---
 
 <p class="section-label">Défense & LPM · Fiche 03</p>
 
-<nav class="local-nav">
-  <a href="#intuition">AE vs CP</a>
-  <a href="#lexemple-de-la-frégate">Frégate</a>
-  <a href="#la-phrase-clé">Principe clé</a>
-  <a href="#pourquoi-ce-système-est-il-indispensable-pour-la-défense-">Enjeux</a>
-  <a href="#récapitulatif">Récapitulatif</a>
-  <a href="#sources-pour-aller-plus-loin">Sources</a>
-</nav>
-
 # Autorisations d'engagement et crédits de paiement
 
 <p class="page-tagline">S'engager et payer : deux actes distincts.</p>
+<p class="page-intro">Cette fiche sépare la notion, l'exemple, l'utilité pratique et le sujet des restes à payer. L'idée est d'accéder vite à la bonne vue sans dérouler toute la page.</p>
 
----
+<nav class="local-nav">
+  <a href="#vue-densemble">Vue d'ensemble</a>
+  <a href="#explorer-ae-cp">Explorer</a>
+  <a href="#repere-cle">Repère</a>
+  <a href="#sources-pour-aller-plus-loin">Sources</a>
+</nav>
 
-## Intuition {#intuition}
+## Vue d'ensemble {#vue-densemble}
 
-Avant toute définition, voici deux questions simples :
+```{=html}
+<div class="overview-grid">
+  <button type="button" class="overview-card" data-tabset-target="aecp-tabs" data-tab-target="AE vs CP">
+    <span class="overview-kicker">Intuition</span>
+    <strong class="overview-title">AE vs CP</strong>
+    <span class="overview-desc">Jusqu'où l'État peut-il signer ? Combien peut-il payer cette année ?</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="aecp-tabs" data-tab-target="Frégate">
+    <span class="overview-kicker">Exemple</span>
+    <strong class="overview-title">Frégate fictive</strong>
+    <span class="overview-desc">Une commande de 600 M€ étalée sur trois exercices.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="aecp-tabs" data-tab-target="Pourquoi c'est utile">
+    <span class="overview-kicker">Usage</span>
+    <strong class="overview-title">Pourquoi c'est utile</strong>
+    <span class="overview-desc">La défense a besoin d'engager sur le long terme sans tout payer immédiatement.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="aecp-tabs" data-tab-target="Restes à payer">
+    <span class="overview-kicker">Suivi</span>
+    <strong class="overview-title">Restes à payer</strong>
+    <span class="overview-desc">L'écart entre AE consommées et CP déjà payés.</span>
+  </button>
+</div>
+```
+
+## Explorer AE / CP {#explorer-ae-cp}
+
+```{=html}
+<div class="segmented-control">
+  <button type="button" data-tabset-target="aecp-tabs" data-tab-target="AE vs CP">AE vs CP</button>
+  <button type="button" data-tabset-target="aecp-tabs" data-tab-target="Frégate">Frégate</button>
+  <button type="button" data-tabset-target="aecp-tabs" data-tab-target="Pourquoi c'est utile">Pourquoi c'est utile</button>
+  <button type="button" data-tabset-target="aecp-tabs" data-tab-target="Restes à payer">Restes à payer</button>
+</div>
+```
+
+::: {.panel-tabset #aecp-tabs}
+
+## AE vs CP
 
 ```{=html}
 <div class="versus">
@@ -31,16 +66,16 @@ Avant toute définition, voici deux questions simples :
     <span style="font-size:1.5rem">📋</span><br>
     <strong style="color:var(--blue)">AE</strong><br>
     <em>Autorisation d'engagement</em><br><br>
-    Jusqu'où l'État peut-il <strong>s'engager juridiquement</strong> ?<br>
-    Combien peut-il <strong>signer</strong> ?
+    Plafond d'engagement juridique<br>
+    Combien l'État peut-il signer ?
   </div>
   <div class="vs-divider">≠</div>
   <div class="vs-right">
     <span style="font-size:1.5rem">💶</span><br>
     <strong style="color:var(--coral)">CP</strong><br>
     <em>Crédit de paiement</em><br><br>
-    Combien l'État peut-il effectivement <strong>payer</strong> cette année ?<br>
-    Combien peut-il <strong>décaisser</strong> ?
+    Plafond de paiement effectif<br>
+    Combien l'État peut-il décaisser cette année ?
   </div>
 </div>
 ```
@@ -49,27 +84,19 @@ Avant toute définition, voici deux questions simples :
 ::: {.concept-label}
 LOLF, art. 8
 :::
-**Les autorisations d'engagement** constituent la limite supérieure des dépenses pouvant être **juridiquement engagées** au cours de l'exercice pour la réalisation des investissements ou pour les dépenses de fonctionnement non annuelles.
-
-**Les crédits de paiement** constituent la limite supérieure des dépenses pouvant être **ordonnancées ou payées** pendant l'année pour la couverture des engagements contractés dans le cadre des autorisations d'engagement correspondantes.
+Les **AE** limitent les dépenses pouvant être juridiquement engagées. Les **CP** limitent les dépenses pouvant être ordonnancées ou payées pendant l'année.
 :::
 
----
+## Frégate
 
-## L'exemple de la frégate {#lexemple-de-la-frégate}
-
-> ⚠️ **Exemple 100% pédagogique et fictif.** Les chiffres et dates ci-dessous sont inventés pour illustrer le mécanisme AE/CP. Ils ne correspondent à aucun programme d'armement réel.
-
-Imaginons qu'une frégate de défense coûte **600 M€** et soit construite sur **trois ans**.
-
-### Schéma des flux AE / CP
+> ⚠️ **Exemple pédagogique fictif.** Chiffres et dates inventés pour illustrer le mécanisme.
 
 ::: {.diagram-container}
 ![Schéma AE/CP pour la frégate fictive : Année 1 AE 600 M€ CP 50 M€ signature, Année 2 AE 0 CP 250 M€ construction, Année 3 AE 0 CP 300 M€ livraison](../assets/diagrams/ae-cp-fregate.svg){width="100%" alt="Tableau des flux AE et CP sur trois ans pour une frégate fictive de 600 millions d'euros"}
 :::
 
 ::: {.diagram-caption}
-Frégate fictive (600 M€) — illustration pédagogique du mécanisme AE/CP
+Une seule signature peut générer des paiements échelonnés pendant plusieurs années.
 :::
 
 ```{=html}
@@ -96,86 +123,59 @@ Frégate fictive (600 M€) — illustration pédagogique du mécanisme AE/CP
     <div class="fregate-cp">CP : 300 M€</div>
   </div>
 </div>
-<p style="text-align:center;font-size:0.85rem;color:var(--text-muted)">AE totales : 600 M€ · CP totaux : 600 M€ · mais pas au même moment.</p>
 ```
 
-### Ce qui se passe année par année
+<details>
+<summary>Voir l'année par année</summary>
 
-#### Année 1 — Signature du contrat
+- **Année 1** : le contrat est signé, donc l'AE de 600 M€ est consommée ; seuls 50 M€ sont payés.
+- **Année 2** : pas de nouvelle AE pour ce contrat ; 250 M€ sont payés.
+- **Année 3** : toujours pas de nouvelle AE ; le solde de 300 M€ est payé.
 
-- L'État signe un contrat avec un chantier naval : **600 M€ d'AE sont consommés** au moment de la signature.
-- Cette année, l'État paie une première tranche : **50 M€ de CP**.
-- Reste à payer les exercices suivants : 550 M€.
+</details>
 
-#### Année 2 — Construction
+## Pourquoi c'est utile
 
-- **Pas de nouvel engagement** lié à ce contrat (l'AE a déjà été consommée en Année 1).
-- L'État paie la deuxième tranche : **250 M€ de CP**.
-- Reste à payer : 300 M€.
+La distinction AE/CP permet à l'État de **s'engager sur la durée** tout en gardant la maîtrise des paiements annuels.
 
-#### Année 3 — Livraison
+::: {.remember}
+Sans AE/CP, l'État devrait disposer immédiatement de toute la trésorerie pour signer un contrat long, ce qui rendrait la gestion des grands programmes d'armement beaucoup plus rigide.
+:::
 
-- Toujours **pas de nouvel engagement** lié à ce contrat.
-- L'État paie le solde : **300 M€ de CP**.
-- Contrat soldé : AE consommées = CP cumulés = **600 M€**.
+::: {.warning}
+::: {.warning-label}
+À ne pas limiter à la défense
+:::
+Le mécanisme AE/CP vaut pour l'ensemble des ministères hors dépenses de personnel. Il est simplement **très visible** en défense à cause des programmes industriels pluriannuels.
+:::
 
----
+## Restes à payer
 
-## La phrase clé {#la-phrase-clé}
+Quand les AE ont été consommées mais que tous les CP n'ont pas encore été versés, il subsiste des **restes à payer**.
+
+::: {.concept}
+::: {.concept-label}
+Lecture rapide
+:::
+Les restes à payer mesurent les **engagements futurs déjà pris** par l'État.
+:::
+
+<details>
+<summary>Pourquoi cet indicateur compte</summary>
+
+Dans la Mission Défense, le niveau des restes à payer éclaire le poids des contrats déjà signés et des paiements qui devront être couverts dans les exercices futurs.
+
+</details>
+
+:::
+
+## Repère clé {#repere-cle}
 
 ```{=html}
 <div class="intro-quote">
   ENGAGEMENT ≠ PAIEMENT IMMÉDIAT
 </div>
 ```
-
-L'AE représente une **obligation juridique de payer dans le futur**. Elle crée une dette de l'État envers son contractant. Le CP est le moment où cette obligation se traduit en **flux de trésorerie réel**.
-
----
-
-## Pourquoi ce système est-il indispensable pour la Défense ? {#pourquoi-ce-système-est-il-indispensable-pour-la-défense-}
-
-Les équipements militaires sont des objets industriels **complexes et pluriannuels**. Construire un sous-marin, développer un avion de combat ou acquérir un satellite prend des années.
-
-Sans la distinction AE/CP, deux problèmes se poseraient :
-
-1. **Impossible de signer des contrats longs** sans disposer immédiatement de toute la trésorerie correspondante.
-2. **Impossible de piloter la trajectoire de paiements** sur plusieurs exercices budgétaires.
-
-La distinction AE/CP donne à l'État la capacité de **s'engager sur la durée** tout en maîtrisant ses **flux de paiement annuels**.
-
-::: {.warning}
-::: {.warning-label}
-Ce mécanisme n'est pas propre à la Défense
-:::
-La distinction AE/CP est un **mécanisme général de la LOLF**, applicable à l'ensemble des ministères pour toutes les dépenses hors dépenses de personnel (Titre 2). Elle est particulièrement visible dans le domaine de la Défense en raison de l'importance des programmes d'armement pluriannuels, mais elle s'applique aussi aux grands travaux, aux conventions pluriannuelles, etc.
-:::
-
----
-
-## La « dette AE » : les restes à payer
-
-L'accumulation d'AE consommées mais non encore couvertes par des CP génère ce qu'on appelle les **« restes à payer »** (ou RAP dans les documents budgétaires). C'est un indicateur important pour mesurer les engagements futurs de l'État.
-
-::: {.deep-dive}
-::: {.deep-dive-label}
-Pour aller plus loin
-:::
-Les restes à payer de la Mission Défense sont particulièrement importants et font l'objet d'analyses régulières par la Cour des comptes et les commissions parlementaires. Ils traduisent les engagements pluriannuels pris dans le cadre des grands programmes d'armement.
-:::
-
----
-
-## Récapitulatif {#récapitulatif}
-
-| | AE | CP |
-|---|---|---|
-| **Question** | Jusqu'où s'engager ? | Combien payer ? |
-| **Moment** | À la signature du contrat | À chaque échéance de paiement |
-| **Durée** | Consommée une fois | Étalée sur plusieurs exercices |
-| **Suivi** | Restes à payer | Trésorerie réelle |
-
----
 
 ## Sources & pour aller plus loin {#sources-pour-aller-plus-loin}
 
