@@ -1,0 +1,57 @@
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const normalize = (value) =>
+    (value || "")
+      .normalize("NFD")
+      .replace(/\p{Diacritic}/gu, "")
+      .trim()
+      .toLowerCase();
+
+  const syncControllers = (tabset) => {
+    const activeTab = tabset.querySelector('.nav-link.active, [role="tab"][aria-selected="true"]');
+    if (!activeTab || !tabset.id) return;
+
+    const activeLabel = normalize(activeTab.textContent);
+    document
+      .querySelectorAll(`[data-tabset-target="${tabset.id}"]`)
+      .forEach((control) => {
+        const isActive = normalize(control.dataset.tabTarget) === activeLabel;
+        control.classList.toggle("is-active", isActive);
+        control.setAttribute("aria-pressed", String(isActive));
+      });
+  };
+
+  const activateTab = (tabsetId, tabName) => {
+    const tabset = document.getElementById(tabsetId);
+    if (!tabset) return;
+
+    const target = normalize(tabName);
+    const tabButton = Array.from(tabset.querySelectorAll('.nav-link, [role="tab"]')).find(
+      (button) => normalize(button.textContent) === target
+    );
+
+    if (!tabButton) return;
+    tabButton.click();
+    syncControllers(tabset);
+    tabset.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
+  document.querySelectorAll(".panel-tabset[id]").forEach((tabset) => {
+    tabset.querySelectorAll('.nav-link, [role="tab"]').forEach((tabButton) => {
+      tabButton.addEventListener("click", () => {
+        window.setTimeout(() => syncControllers(tabset), 0);
+      });
+    });
+    syncControllers(tabset);
+  });
+
+  document
+    .querySelectorAll("[data-tabset-target][data-tab-target]")
+    .forEach((control) => {
+      control.addEventListener("click", (event) => {
+        event.preventDefault();
+        activateTab(control.dataset.tabsetTarget, control.dataset.tabTarget);
+      });
+    });
+});
+</script>
