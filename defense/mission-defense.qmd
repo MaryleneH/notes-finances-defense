@@ -1,208 +1,169 @@
 ---
 title: "La Mission Défense"
-description: "Architecture de la Mission Défense : les quatre programmes budgétaires 144, 146, 178 et 212, leurs objectifs et leurs logiques."
-toc: true
+description: "Consulter la Mission Défense par programme : 144, 146, 178, 212 et règles de gestion."
+toc: false
 ---
 
 <p class="section-label">Défense & LPM · Fiche 02</p>
 
+# La Mission Défense
+
+<p class="page-tagline">Quatre programmes. Quatre logiques. Une consultation à la carte.</p>
+<p class="page-intro">Le budget de la Défense se lit beaucoup mieux programme par programme. Utilisez les cartes et les onglets pour aller directement vers la fonction qui vous intéresse.</p>
+
 <nav class="local-nav">
-  <a href="#vue-densemble-les-quatre-programmes">Vue d'ensemble</a>
-  <a href="#programme-144-anticiper">P144</a>
-  <a href="#programme-146-équiper">P146</a>
-  <a href="#programme-178-agir">P178</a>
-  <a href="#programme-212-soutenir">P212</a>
+  <a href="#vue-densemble">Vue d'ensemble</a>
+  <a href="#explorer-les-programmes">Programmes</a>
+  <a href="#point-de-gestion">Gestion</a>
   <a href="#sources-pour-aller-plus-loin">Sources</a>
 </nav>
 
-# La Mission Défense
-
-<p class="page-tagline">Quatre programmes. Quatre logiques. Une politique.</p>
-
----
-
-## Intuition
-
-Le budget de la Défense n'est pas un bloc monolithique. La LOLF l'a structuré en **quatre programmes**, chacun portant une logique propre et un responsable identifié.
-
-::: {.question-card}
-::: {.question-text}
-À quoi sert exactement le budget de la Défense ? Qui dépense quoi, et pour quelle finalité ?
-:::
-:::
-
----
-
-## Vue d'ensemble : les quatre programmes {#vue-densemble-les-quatre-programmes}
+## Vue d'ensemble {#vue-densemble}
 
 ::: {.diagram-container}
 ![Architecture de la Mission Défense : Programme 144 ANTICIPER, Programme 146 ÉQUIPER, Programme 178 AGIR, Programme 212 SOUTENIR, tous reliés au centre Mission Défense](../assets/diagrams/mission-defense.svg){width="100%" alt="Schéma de la Mission Défense avec ses quatre programmes : 144 Anticiper, 146 Équiper, 178 Agir, 212 Soutenir"}
 :::
 
 ::: {.diagram-caption}
-La Mission Défense — quatre programmes, quatre finalités
+Quatre programmes pour répartir les moyens entre anticipation, équipement, emploi et soutien.
 :::
 
----
-
-## Les quatre programmes en détail
-
 ```{=html}
-<div class="program-grid">
-
-  <div class="program-card" style="background:var(--blue-pale);border-color:var(--blue)">
-    <div class="program-number" style="color:var(--blue)">144</div>
-    <div class="program-idea" style="color:var(--blue)">ANTICIPER</div>
-    <div class="program-title">Environnement et prospective de la politique de défense</div>
-    <div class="program-desc">
-      Renseignement, prospective stratégique, études et recherche, innovation, relations internationales. 
-      Ce programme finance les fonctions d'anticipation et de compréhension de l'environnement stratégique.
-    </div>
-  </div>
-
-  <div class="program-card" style="background:var(--coral-pale);border-color:var(--coral)">
-    <div class="program-number" style="color:var(--coral)">146</div>
-    <div class="program-idea" style="color:var(--coral)">ÉQUIPER</div>
-    <div class="program-title">Équipement des forces</div>
-    <div class="program-desc">
-      Programmes d'armement, acquisition et maintien en condition des équipements militaires, 
-      rôle central de la DGA. C'est ici que se trouvent les grands programmes capacitaires (Rafale, SNLE, FTI, etc.).
-    </div>
-  </div>
-
-  <div class="program-card" style="background:var(--mint-pale);border-color:var(--mint)">
-    <div class="program-number" style="color:var(--mint)">178</div>
-    <div class="program-idea" style="color:var(--mint)">AGIR</div>
-    <div class="program-title">Préparation et emploi des forces</div>
-    <div class="program-desc">
-      Préparation opérationnelle, activité des forces (heures de vol, activité navale), 
-      entraînement, MCO opérationnel, conduite des opérations. C'est le programme de l'emploi concret des armées.
-    </div>
-  </div>
-
-  <div class="program-card" style="background:var(--yellow-pale);border-color:var(--yellow)">
-    <div class="program-number" style="color:var(--yellow)">212</div>
-    <div class="program-idea" style="color:var(--yellow)">SOUTENIR</div>
-    <div class="program-title">Soutien de la politique de la défense</div>
-    <div class="program-desc">
-      Ressources humaines, immobilier, systèmes d'information, administration générale, 
-      fonctions ministérielles transversales. Ce programme assure le fonctionnement du ministère.
-    </div>
-  </div>
-
+<div class="overview-grid">
+  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="P144">
+    <span class="overview-kicker">Anticiper</span>
+    <strong class="overview-title">Programme 144</strong>
+    <span class="overview-desc">Renseignement, prospective, innovation et compréhension stratégique.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="P146">
+    <span class="overview-kicker">Équiper</span>
+    <strong class="overview-title">Programme 146</strong>
+    <span class="overview-desc">Programmes d'armement, DGA et grands engagements industriels.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="P178">
+    <span class="overview-kicker">Agir</span>
+    <strong class="overview-title">Programme 178</strong>
+    <span class="overview-desc">Préparation opérationnelle, activité des forces et conduite des opérations.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="P212">
+    <span class="overview-kicker">Soutenir</span>
+    <strong class="overview-title">Programme 212</strong>
+    <span class="overview-desc">Ressources humaines, immobilier, SI et fonctions transversales.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="Gestion">
+    <span class="overview-kicker">Cadre</span>
+    <strong class="overview-title">Règles de gestion</strong>
+    <span class="overview-desc">Mouvements de crédits et limites à ne pas simplifier.</span>
+  </button>
 </div>
 ```
 
----
+## Explorer les programmes {#explorer-les-programmes}
 
-## Programme 144 — ANTICIPER {#programme-144-anticiper}
+```{=html}
+<div class="segmented-control">
+  <button type="button" data-tabset-target="mission-tabs" data-tab-target="P144">P144</button>
+  <button type="button" data-tabset-target="mission-tabs" data-tab-target="P146">P146</button>
+  <button type="button" data-tabset-target="mission-tabs" data-tab-target="P178">P178</button>
+  <button type="button" data-tabset-target="mission-tabs" data-tab-target="P212">P212</button>
+  <button type="button" data-tabset-target="mission-tabs" data-tab-target="Gestion">Gestion</button>
+</div>
+```
 
-### Idée centrale
+::: {.panel-tabset #mission-tabs}
 
-Avant d'agir, il faut comprendre l'environnement. Le Programme 144 finance les fonctions qui permettent à la France d'**anticiper** les évolutions stratégiques.
+## P144
 
-### Ce que finance ce programme
-
-- **Renseignement** : soutien aux services de renseignement du ministère
-- **Prospective de défense** : études stratégiques, analyses de long terme
-- **Recherche et technologie** : financement de l'innovation de défense, soutien à la BITD
-- **Relations internationales et diplomatie de défense**
-
-::: {.example}
-::: {.example-label}
-Exemple concret
-:::
-Le financement de recherches sur les technologies de rupture (hypersonique, cyber, intelligence artificielle appliquée à la défense) relève en partie de ce programme.
-:::
-
----
-
-## Programme 146 — ÉQUIPER {#programme-146-équiper}
-
-### Idée centrale
-
-Les armées ont besoin de matériels. Le Programme 146 finance l'acquisition, le développement et le maintien en condition des **équipements militaires** — les grands programmes d'armement.
-
-### Ce que finance ce programme
-
-- **Programmes d'armement** : développement et acquisition d'équipements majeurs
-- **Rôle de la DGA** (Direction générale de l'armement) : maîtrise d'ouvrage des programmes
-- **Maintien en condition opérationnelle (MCO)** des équipements
-- **Capacités militaires** : de la dissuasion nucléaire aux équipements conventionnels
+Le programme 144 finance ce qui permet de **voir venir** : renseignement, prospective stratégique, innovation, relations internationales de défense.
 
 ::: {.example}
 ::: {.example-label}
-Exemples d'équipements
+Exemple
 :::
-Rafale (aviation de combat), SNLE (sous-marins nucléaires), FTI (frégates de taille intermédiaire), Jaguar et Griffon (véhicules blindés terrestres), SCORPION…
+Les études sur des technologies de rupture ou l'analyse de long terme de l'environnement stratégique relèvent de cette logique d'anticipation.
 :::
+
+::: {.remember}
+Question à se poser : **comment la France comprend-elle et prépare-t-elle l'avenir ?**
+:::
+
+## P146
+
+Le programme 146 concentre la logique **équipement / armement** : acquisition, développement et contractualisation des capacités militaires.
 
 ::: {.concept}
 ::: {.concept-label}
-La DGA
+Point central
 :::
-La **Direction générale de l'armement** est la maîtrise d'ouvrage des programmes d'équipement. Elle négocie les contrats, suit les développements et réceptionne les matériels. Une grande partie des AE du P146 correspondent aux contrats passés avec les industriels de défense (BITD).
+La **DGA** y joue un rôle clé. C'est ici que l'on voit le plus nettement les grands montants en **AE**, car les contrats sont pluriannuels.
 :::
-
-### Pourquoi ce programme concentre l'essentiel des AE de la Mission Défense
-
-Les grands programmes d'armement mobilisent des **autorisations d'engagement (AE) très importantes** lors de la signature des contrats, pour des **crédits de paiement (CP) étalés sur de nombreuses années**. C'est la mécanique AE/CP dans toute sa réalité industrielle.
-
----
-
-## Programme 178 — AGIR {#programme-178-agir}
-
-### Idée centrale
-
-Avoir des équipements ne suffit pas. Il faut les faire fonctionner, entraîner les soldats, conduire les opérations. Le Programme 178 est le programme de **l'emploi concret des forces**.
-
-### Ce que finance ce programme
-
-- **Préparation opérationnelle** : entraînement des forces, exercices
-- **Activité des forces** : heures de vol de l'aviation, journées de mer de la Marine, activité des forces terrestres
-- **MCO opérationnel** : entretien courant permettant la disponibilité des matériels
-- **Opérations extérieures (OPEX)** : les surcoûts des opérations sont en partie supportés par ce programme
 
 ::: {.example}
 ::: {.example-label}
-Indicateurs de performance
+Exemples typiques
 :::
-Le nombre d'heures de vol par pilote de chasse, le nombre de journées de mer, le taux de disponibilité des équipements sont des indicateurs de performance liés à ce programme.
+Rafale, SNLE, frégates, véhicules SCORPION, dissuasion et autres grands programmes capacitaires.
 :::
 
----
+## P178
 
-## Programme 212 — SOUTENIR {#programme-212-soutenir}
+Le programme 178 finance l'**emploi concret des forces** : entraînement, préparation opérationnelle, activité, disponibilité des matériels, conduite des opérations.
 
-### Idée centrale
+::: {.example}
+::: {.example-label}
+Indicateurs parlants
+:::
+Heures de vol, journées de mer, taux de disponibilité, activité des forces terrestres.
+:::
 
-Le ministère des Armées est un vaste employeur et gestionnaire. Le Programme 212 assure les **fonctions transversales** qui permettent à l'ensemble du ministère de fonctionner.
+::: {.remember}
+Question à se poser : **les armées sont-elles capables d'agir réellement, ici et maintenant ?**
+:::
 
-### Ce que finance ce programme
+## P212
 
-- **Ressources humaines** : gestion du personnel civil du ministère
-- **Immobilier de défense** : casernes, bases, logements
-- **Systèmes d'information** : infrastructures numériques
-- **Fonctions ministérielles transversales** : communication, affaires juridiques, etc.
+Le programme 212 assure les fonctions de **soutien et de structure** du ministère : RH, immobilier, systèmes d'information, fonctions juridiques et administratives.
 
----
+::: {.example}
+::: {.example-label}
+Exemples
+:::
+Gestion du personnel civil, infrastructures immobilières, SI ministériels, fonctions transversales de fonctionnement.
+:::
 
-## Les principes de gestion des crédits entre programmes
+::: {.remember}
+Sans le P212, les autres programmes disposent de moyens mais pas de **socle administratif et humain** pour fonctionner.
+:::
+
+## Gestion
+
+Les programmes ne sont pas des blocs totalement hermétiques, mais ils ne sont pas non plus librement fongibles.
 
 ::: {.warning}
 ::: {.warning-label}
 Ne pas simplifier à l'excès
 :::
-Les programmes de la Mission Défense ne constituent pas des « compartiments totalement hermétiques ». La LOLF prévoit des mécanismes légaux de **mouvement de crédits** :
-
-- **Virements** : entre programmes d'un même ministère (limité)
-- **Transferts** : entre programmes de ministères différents
-- **Décrets d'avance** : en cas d'urgence, pour abonder des programmes
-
-Ces mécanismes restent encadrés et font l'objet de comptes rendus au Parlement. Ils ne remettent pas en cause la logique de spécialité — ils en constituent les soupapes de gestion.
+La LOLF prévoit des **virements**, **transferts** et, dans certains cas, des **décrets d'avance**. Ces mouvements sont encadrés et n'effacent pas la logique de spécialité.
 :::
 
----
+<details>
+<summary>Voir les trois mécanismes à retenir</summary>
+
+- **Virement** : entre programmes d'un même ministère
+- **Transfert** : entre ministères différents
+- **Décret d'avance** : abondement en urgence dans un cadre légal précis
+
+</details>
+
+:::
+
+## Point de gestion {#point-de-gestion}
+
+::: {.question-card}
+::: {.question-text}
+Pour lire vite la Mission Défense, demandez-vous d'abord si vous êtes face à un besoin d'**anticipation**, d'**équipement**, d'**emploi** ou de **soutien**.
+:::
+:::
 
 ## Sources & pour aller plus loin {#sources-pour-aller-plus-loin}
 

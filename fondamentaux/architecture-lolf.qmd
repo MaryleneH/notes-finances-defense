@@ -1,114 +1,194 @@
 ---
 title: "Architecture de la LOLF"
-description: "Comment la loi organique relative aux lois de finances de 2001 a réorganisé le budget de l'État en missions, programmes et actions."
-toc: true
+description: "Comprendre la LOLF par vues successives : mission, programme, action, performance et structure des crédits."
+toc: false
 ---
 
 <p class="section-label">Fondamentaux · Fiche 02</p>
 
 # Architecture de la LOLF
 
-<p class="page-tagline">En 2001, la France a réinventé la présentation de son budget.</p>
+<p class="page-tagline">Lire le budget par niveaux, pas par pavés de texte.</p>
+<p class="page-intro">Cette fiche isole les briques essentielles de la LOLF. Commencez par le niveau qui vous intéresse, puis ouvrez seulement la couche de détail utile.</p>
 
----
+<nav class="local-nav">
+  <a href="#vue-densemble">Vue d'ensemble</a>
+  <a href="#explorer-larchitecture">Explorer</a>
+  <a href="#repere-de-lecture">Repère de lecture</a>
+  <a href="#sources-pour-aller-plus-loin">Sources</a>
+</nav>
 
-## Intuition
+## Vue d'ensemble {#vue-densemble}
 
-Avant la LOLF, le budget de l'État était organisé par **ministère et par nature de dépense** (personnel, matériel, investissement…). Cette présentation rendait très difficile de répondre à une question simple :
+```{=html}
+<div class="overview-grid">
+  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Mission">
+    <span class="overview-kicker">Niveau 1</span>
+    <strong class="overview-title">Mission</strong>
+    <span class="overview-desc">Le niveau de vote parlementaire qui regroupe une politique publique.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Programme">
+    <span class="overview-kicker">Niveau 2</span>
+    <strong class="overview-title">Programme</strong>
+    <span class="overview-desc">Le cœur de la spécialité des crédits et de la responsabilité de gestion.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Action">
+    <span class="overview-kicker">Niveau 3</span>
+    <strong class="overview-title">Action</strong>
+    <span class="overview-desc">La subdivision utile pour suivre plus finement l'emploi des moyens.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Performance">
+    <span class="overview-kicker">Pilotage</span>
+    <strong class="overview-title">Performance</strong>
+    <span class="overview-desc">Objectifs, indicateurs, PAP et RAP rendent la dépense évaluée.</span>
+  </button>
+  <button type="button" class="overview-card" data-tabset-target="architecture-tabs" data-tab-target="Crédits">
+    <span class="overview-kicker">Lecture pratique</span>
+    <strong class="overview-title">Titres, AE et CP</strong>
+    <span class="overview-desc">Les crédits se lisent aussi par nature économique et par temporalité.</span>
+  </button>
+</div>
+```
 
-::: {.question-card}
-::: {.question-text}
-À quoi sert cet argent, concrètement ?
+## Explorer l'architecture {#explorer-larchitecture}
+
+```{=html}
+<div class="segmented-control">
+  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Mission">Mission</button>
+  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Programme">Programme</button>
+  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Action">Action</button>
+  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Performance">Performance</button>
+  <button type="button" data-tabset-target="architecture-tabs" data-tab-target="Crédits">Titres, AE et CP</button>
+</div>
+```
+
+::: {.panel-tabset #architecture-tabs}
+
+## Mission
+
+La **mission** regroupe plusieurs programmes autour d'une même politique publique. C'est le niveau sur lequel le Parlement se prononce.
+
+::: {.concept}
+::: {.concept-label}
+Idée clé
 :::
+La mission donne la **vue politique d'ensemble** : Défense, Enseignement scolaire, Santé, etc.
 :::
 
-La LOLF a introduit une logique radicalement différente : présenter les crédits par **finalité**, et non plus seulement par nature.
+::: {.example}
+::: {.example-label}
+Exemple
+:::
+La **Mission Défense** réunit plusieurs programmes distincts mais concourant à une seule politique publique.
+:::
 
----
+<details>
+<summary>Pourquoi ce niveau est important</summary>
 
-## La structure en trois niveaux
+Voter au niveau de la mission permet de débattre d'une grande priorité publique sans descendre immédiatement dans chaque ligne de gestion.
 
-La LOLF organise le budget de l'État en trois niveaux emboîtés :
+</details>
 
-| Niveau | Nom | Caractéristiques |
-|--------|-----|-----------------|
-| **1** | **Mission** | Regroupe des programmes relevant d'une même politique publique. Peut être interministérielle. |
-| **2** | **Programme** | Unité de spécialité des crédits. Rattaché à un ministère responsable. |
-| **3** | **Action** | Subdivision indicative du programme pour le suivi de gestion. Ne fait pas l'objet d'un vote spécifique. |
+## Programme
 
-### La mission
-
-Une **mission** regroupe plusieurs programmes partageant un même objectif de politique publique. Elle constitue l'unité de vote au Parlement : c'est au niveau de la mission que les parlementaires se prononcent.
-
-**Exemples de missions :** Mission Défense, Mission Enseignement scolaire, Mission Santé.
-
-### Le programme
-
-Le **programme** est l'unité de base de la gestion et de la spécialité des crédits. C'est à ce niveau que s'applique le principe de spécialité : un responsable de programme (RPROG) est nommément responsable des crédits qui lui sont confiés.
+Le **programme** est l'unité centrale de la LOLF : c'est là que s'applique réellement la **spécialité des crédits**.
 
 ::: {.concept}
 ::: {.concept-label}
 LOLF, art. 7
 :::
-Les crédits ouverts par les lois de finances pour couvrir chacune des charges budgétaires de l'État sont regroupés par mission relevant d'un ou plusieurs services d'un ou plusieurs ministères. Un programme regroupe les crédits destinés à mettre en œuvre une action ou un ensemble cohérent d'actions relevant d'un même ministère et auxquels sont associés des objectifs précis, définis en fonction de finalités d'intérêt général, ainsi que des résultats attendus et faisant l'objet d'une évaluation.
+Un programme regroupe les crédits destinés à mettre en œuvre un ensemble cohérent d'actions relevant d'un même ministère, avec des objectifs et des résultats attendus.
 :::
 
-### L'action
+::: {.remember}
+Le programme n'est pas seulement un conteneur comptable : il associe **responsable**, **objectifs** et **moyens**.
+:::
 
-L'**action** est une subdivision interne du programme, permettant d'affiner le suivi de gestion et d'évaluation. Elle n'est pas dotée d'un crédit distinct voté par le Parlement.
+<details>
+<summary>Voir le rôle du responsable de programme</summary>
 
----
+Le responsable de programme pilote l'exécution, arbitre l'emploi des moyens autorisés et rend compte des résultats obtenus.
 
-## La logique de performance
+</details>
 
-La LOLF a également introduit une **logique de performance** : chaque programme est assorti d'**objectifs** et d'**indicateurs de résultats**. Les gestionnaires rendent compte annuellement de leur performance dans des **rapports annuels de performance (RAP)**.
+## Action
+
+L'**action** affine la lecture interne d'un programme. Elle aide à suivre la mise en œuvre, mais elle n'est pas votée séparément.
+
+::: {.concept}
+::: {.concept-label}
+Fonction
+:::
+L'action sert surtout à la **gestion**, à l'analyse et au suivi plus fin de ce que fait concrètement le programme.
+:::
+
+::: {.example}
+::: {.example-label}
+Exemple
+:::
+Un programme de défense peut distinguer plusieurs actions correspondant à des fonctions ou activités internes, sans que chacune fasse l'objet d'un vote autonome.
+:::
+
+<details>
+<summary>Ce que l'action n'est pas</summary>
+
+Une action n'est pas une enveloppe indépendante librement opposable au Parlement comme l'est un programme.
+
+</details>
+
+## Performance
+
+La LOLF lie la dépense à une **logique de résultats** : on ne vote plus seulement des moyens, on demande aussi des comptes.
 
 ```{=html}
-<div class="entry-cards" style="grid-template-columns: repeat(auto-fill, minmax(200px,1fr))">
+<div class="entry-cards" style="grid-template-columns: repeat(auto-fit, minmax(220px,1fr))">
   <div class="entry-card card-blue" style="cursor:default">
     <div class="card-title">PAP</div>
-    <div class="card-desc">Projet annuel de performances — joint au PLF, il présente les objectifs et indicateurs pour l'année à venir.</div>
+    <div class="card-desc">Le projet annuel de performances accompagne le PLF et présente les objectifs pour l'année à venir.</div>
   </div>
   <div class="entry-card card-mint" style="cursor:default">
     <div class="card-title">RAP</div>
-    <div class="card-desc">Rapport annuel de performances — joint au projet de loi de règlement, il rend compte des résultats obtenus.</div>
+    <div class="card-desc">Le rapport annuel de performances compare les résultats obtenus aux objectifs annoncés.</div>
   </div>
 </div>
 ```
 
----
-
-## Les catégories de crédits (titres)
-
-Au sein de chaque programme, les crédits sont classés par **titre** selon leur nature économique :
-
-| Titre | Nature |
-|-------|--------|
-| Titre 1 | Dotations des pouvoirs publics |
-| Titre 2 | Dépenses de personnel |
-| Titre 3 | Dépenses de fonctionnement |
-| Titre 5 | Dépenses d'investissement |
-| Titre 6 | Dépenses d'intervention |
-| Titre 7 | Dépenses d'opérations financières |
-
 ::: {.remember}
-Le Titre 2 (dépenses de personnel) bénéficie d'une protection particulière : il ne peut pas être abondé par des crédits provenant d'autres titres sans autorisation spécifique.
+La performance n'est pas un supplément décoratif : elle structure la **redevabilité** du gestionnaire public.
 :::
 
----
+## Crédits
 
-## AE et CP : deux dimensions de chaque crédit
+Les crédits se lisent selon **deux axes complémentaires** : leur nature économique et leur temporalité budgétaire.
 
-La LOLF a généralisé la distinction entre **autorisation d'engagement (AE)** et **crédit de paiement (CP)** à l'ensemble des dépenses de l'État (sauf dépenses de personnel).
+| Axe | Lecture rapide |
+|---|---|
+| **Titres** | Dépenses de personnel, fonctionnement, investissement, intervention, opérations financières… |
+| **AE / CP** | S'engager juridiquement d'un côté, payer effectivement de l'autre |
 
-- L'**AE** permet de prendre un engagement juridique (signer un contrat, par exemple).
-- Le **CP** permet d'effectuer un paiement.
+::: {.remember}
+Le **Titre 2** bénéficie d'une protection particulière. Les **AE/CP** permettent de piloter les projets pluriannuels sans confondre signature et paiement.
+:::
 
-Ces deux notions font l'objet d'une [fiche détaillée dédiée →](../defense/ae-cp.html)
+<details>
+<summary>Voir le rappel AE / CP</summary>
 
----
+- **AE** : autorisent un engagement juridique
+- **CP** : autorisent le paiement effectif
 
-## Sources & pour aller plus loin
+Ces deux dimensions sont détaillées dans la [fiche dédiée →](../defense/ae-cp.html)
+
+</details>
+
+:::
+
+## Repère de lecture {#repere-de-lecture}
+
+::: {.remember}
+Pour lire un budget LOLF sans vous perdre, suivez toujours ce chemin : **mission** pour la politique, **programme** pour le vote utile, **action** pour le détail de gestion, puis **performance** et **AE/CP** pour comprendre l'exécution.
+:::
+
+## Sources & pour aller plus loin {#sources-pour-aller-plus-loin}
 
 ```{=html}
 <div class="source-grid">
