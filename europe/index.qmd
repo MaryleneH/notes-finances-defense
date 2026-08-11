@@ -8,34 +8,22 @@ toc: false
 
 # Europe & finances publiques
 
-<p class="page-tagline">Un nouveau thermomètre budgétaire pour l'Union européenne.</p>
+<p class="page-tagline">Situer les finances publiques françaises dans le nouveau cadre de surveillance européen.</p>
 
 ---
 
-Depuis 2024, la gouvernance budgétaire de la zone euro a profondément évolué. La surveillance budgétaire européenne ne se concentre plus seulement sur les classiques règles des 3 % et 60 %, mais utilise un nouvel indicateur central : la **trajectoire de dépenses nettes**.
-
-## Dans cette section
+Cette section présente le nouvel indicateur central de la gouvernance budgétaire européenne depuis 2024. Elle sert de point d'entrée pour comprendre ce que mesure la trajectoire de dépenses nettes, et ce qu'elle ne mesure pas.
 
 ```{=html}
-<div class="entry-cards" style="grid-template-columns: repeat(auto-fill, minmax(280px,1fr))">
-
-  <a href="depenses-nettes.html" class="entry-card card-violet" style="text-decoration:none">
-    <div class="card-title">Les dépenses nettes</div>
-    <div class="card-desc">
-      Comprendre le nouveau thermomètre de la surveillance budgétaire européenne — de la définition réglementaire à l'interprétation pédagogique.
-    </div>
-    <div class="card-tags">
-      <span class="card-tag">CGO 2024</span>
-      <span class="card-tag">Règlement UE</span>
-      <span class="card-tag">Surveillance</span>
-    </div>
+<div class="access-grid">
+  <a href="depenses-nettes.html" class="access-card">
+    <div class="ac-icon">🇪🇺</div>
+    <div class="ac-title">Les dépenses nettes</div>
+    <div class="ac-desc">Définition, retraitements et rôle de ce nouvel indicateur dans la surveillance budgétaire.</div>
   </a>
-
 </div>
 ```
 
-## Idée clé
-
 ::: {.remember}
-Les règles des 3 % (déficit) et 60 % (dette) du traité de Maastricht **n'ont pas disparu**. Elles constituent toujours les seuils du Pacte de stabilité. Ce qui a changé en 2024, c'est la logique de **surveillance active** : elle s'articule désormais autour d'une trajectoire de dépenses nettes.
+Les seuils de 3 % et 60 % restent en place ; ce qui change, c'est l'outil de suivi central utilisé dans la conduite pluriannuelle.
 :::

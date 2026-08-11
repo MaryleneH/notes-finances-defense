@@ -1097,3 +1097,367 @@ footer {
   .entry-card, .program-card { box-shadow: none !important; border: 1px solid #ccc !important; }
   body { font-size: 12pt; }
 }
+
+/* Source grid — 2 cols desktop, 1 col mobile */
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.source-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+  margin: 0;
+  max-width: none;
+}
+
+.source-card:hover {
+  border-color: var(--blue);
+  box-shadow: 0 4px 16px rgba(37,99,235,0.08);
+}
+
+.source-type {
+  font-size: 1.3rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.source-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.source-title {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.source-inst {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.source-link {
+  font-size: 0.82rem;
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.source-link:hover {
+  text-decoration: underline;
+}
+
+.local-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 2rem;
+  padding: 0.75rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.local-nav a {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-sm);
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+
+.local-nav a:hover {
+  background: var(--blue-pale);
+  color: var(--blue);
+}
+
+/* "À retenir" editorial block */
+.editorial-note {
+  margin: 2rem 0;
+  padding: 1.5rem 2rem;
+  border-left: 3px solid var(--blue);
+  background: var(--blue-pale);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  position: relative;
+}
+
+.editorial-note::before {
+  content: "↘ à retenir";
+  font-family: var(--font-hand);
+  font-size: 0.9rem;
+  color: var(--blue);
+  display: block;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.editorial-note p {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.pathway {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 2rem 0;
+  max-width: 480px;
+}
+
+.pathway-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+
+.pathway-step:last-child {
+  padding-bottom: 0;
+}
+
+.pathway-step::before {
+  content: "";
+  position: absolute;
+  left: 19px;
+  top: 38px;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+
+.pathway-step:last-child::before {
+  display: none;
+}
+
+.pathway-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--blue-pale);
+  border: 2px solid var(--blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--blue);
+  font-family: var(--font-serif);
+}
+
+.pathway-content {
+  padding-top: 0.5rem;
+}
+
+.pathway-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.pathway-title {
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.pathway-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.2rem;
+}
+
+.fregate-timeline {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.fregate-timeline::before {
+  content: "";
+  position: absolute;
+  top: 52px;
+  left: calc(50% / 3);
+  right: calc(50% / 3);
+  height: 3px;
+  background: linear-gradient(90deg, var(--blue), var(--coral));
+}
+
+.fregate-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  position: relative;
+}
+
+.fregate-year {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.fregate-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--blue);
+  border: 3px solid var(--surface);
+  box-shadow: 0 0 0 2px var(--blue);
+  margin: 0.5rem 0;
+  z-index: 1;
+}
+
+.fregate-action {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+.fregate-ae {
+  font-size: 0.8rem;
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.fregate-cp {
+  font-size: 0.8rem;
+  color: var(--coral);
+  font-weight: 600;
+}
+
+/* Three-access layout */
+.access-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.access-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color 0.2s, transform 0.15s;
+}
+
+.access-card:hover {
+  border-color: var(--blue);
+  transform: translateY(-2px);
+}
+
+.access-card .ac-icon {
+  font-size: 1.5rem;
+}
+
+.access-card .ac-title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.access-card .ac-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.retraitement-list {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.retraitement-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 0.75rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.retraitement-number {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--violet-pale);
+  color: var(--violet);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+  flex-shrink: 0;
+}
+
+.retraitement-body {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.retraitement-details {
+  padding: 0.75rem 1rem;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.retraitement-details summary {
+  cursor: pointer;
+  font-size: 0.85rem;
+  color: var(--blue);
+  font-weight: 500;
+  list-style: none;
+}
+
+.retraitement-details summary::-webkit-details-marker { display: none; }
+
+.retraitement-details[open] summary {
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  .fregate-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .fregate-timeline::before {
+    display: none;
+  }
+}

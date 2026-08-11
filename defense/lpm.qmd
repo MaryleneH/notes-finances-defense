@@ -6,6 +6,14 @@ toc: true
 
 <p class="section-label">Défense & LPM · Fiche 01</p>
 
+<nav class="local-nav">
+  <a href="#définition">Définition</a>
+  <a href="#la-distinction-fondamentale">LPM vs LFI</a>
+  <a href="#le-passage-de-la-lpm-aux-crédits-budgétaires">Parcours</a>
+  <a href="#la-lpm-2024-2030">LPM 2024–2030</a>
+  <a href="#sources-pour-aller-plus-loin">Sources</a>
+</nav>
+
 # La loi de programmation militaire
 
 <p class="page-tagline">Une intention pluriannuelle qui ne vaut que si le Parlement la confirme chaque année.</p>
@@ -24,7 +32,7 @@ Non. Et c'est l'un des malentendus les plus répandus sur la LPM.
 
 ---
 
-## Qu'est-ce qu'une loi de programmation militaire ?
+## Qu'est-ce qu'une loi de programmation militaire ? {#définition}
 
 Une **loi de programmation militaire (LPM)** est une loi ordinaire — non organique — qui fixe, pour plusieurs années, le cadre de la politique de défense et une trajectoire indicative de ressources financières.
 
@@ -39,7 +47,7 @@ Elle ne constitue **pas** une loi de finances. Elle ne crée pas de crédits bud
 
 ---
 
-## La distinction fondamentale
+## La distinction fondamentale {#la-distinction-fondamentale}
 
 ```{=html}
 <div class="versus">
@@ -69,26 +77,47 @@ Elle ne constitue **pas** une loi de finances. Elle ne crée pas de crédits bud
 
 ---
 
-## Le passage de la LPM aux crédits budgétaires
+## Le passage de la LPM aux crédits budgétaires {#le-passage-de-la-lpm-aux-crédits-budgétaires}
 
 ```{=html}
-<div class="timeline">
-  <div class="timeline-item">
-    <div class="timeline-year">Étape 1 — La LPM</div>
-    <div class="timeline-content">Le Parlement adopte la loi de programmation militaire. Elle fixe les grandes orientations et une trajectoire financière pluriannuelle. <strong>Aucun crédit n'est ouvert à ce stade.</strong></div>
+<div class="pathway">
+
+  <div class="pathway-step">
+    <div class="pathway-icon">01</div>
+    <div class="pathway-content">
+      <div class="pathway-label">Étape 1</div>
+      <div class="pathway-title">La LPM</div>
+      <div class="pathway-desc">Trajectoire pluriannuelle — aucun crédit ouvert à ce stade.</div>
+    </div>
   </div>
-  <div class="timeline-item">
-    <div class="timeline-year">Étape 2 — Le PLF</div>
-    <div class="timeline-content">Chaque automne, le gouvernement dépose un projet de loi de finances. La traduction budgétaire annuelle de la LPM y est inscrite : les crédits de la Mission Défense pour l'année à venir.</div>
+
+  <div class="pathway-step">
+    <div class="pathway-icon">02</div>
+    <div class="pathway-content">
+      <div class="pathway-label">Étape 2</div>
+      <div class="pathway-title">Le PLF</div>
+      <div class="pathway-desc">Traduction budgétaire annuelle — crédits Mission Défense inscrits.</div>
+    </div>
   </div>
-  <div class="timeline-item">
-    <div class="timeline-year">Étape 3 — La LFI</div>
-    <div class="timeline-content">Le Parlement vote la loi de finances initiale. C'est à ce moment que les crédits sont <strong>réellement autorisés</strong>. Le gouvernement peut alors engager et payer.</div>
+
+  <div class="pathway-step">
+    <div class="pathway-icon">03</div>
+    <div class="pathway-content">
+      <div class="pathway-label">Étape 3</div>
+      <div class="pathway-title">La LFI</div>
+      <div class="pathway-desc">Vote du Parlement — les crédits sont réellement autorisés.</div>
+    </div>
   </div>
-  <div class="timeline-item">
-    <div class="timeline-year">Étape 4 — L'exécution</div>
-    <div class="timeline-content">Les crédits sont mis à disposition des gestionnaires (RPROG). Les engagements juridiques (AE) et les paiements (CP) peuvent avoir lieu dans la limite des crédits autorisés.</div>
+
+  <div class="pathway-step">
+    <div class="pathway-icon">04</div>
+    <div class="pathway-content">
+      <div class="pathway-label">Étape 4</div>
+      <div class="pathway-title">L'exécution</div>
+      <div class="pathway-desc">Engagements (AE) et paiements (CP) dans la limite des crédits votés.</div>
+    </div>
   </div>
+
 </div>
 ```
 
@@ -98,7 +127,7 @@ La LPM est une **promesse encadrée**, pas une réservation de fonds. Chaque ann
 
 ---
 
-## La LPM 2024–2030
+## La LPM 2024–2030 {#la-lpm-2024-2030}
 
 La loi n° 2023-703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030 a été promulguée le 1er août 2023.
 
@@ -135,37 +164,38 @@ Les montants annuels exacts inscrits en loi de finances peuvent différer de la 
 
 ---
 
-## Sources & pour aller plus loin
+## Sources & pour aller plus loin {#sources-pour-aller-plus-loin}
 
-::: {.source-card}
-::: {.source-icon}📜:::
-:::
-**Loi n° 2023-703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030**
-::: {.source-inst}
-Légifrance
-:::
-[Consulter sur Légifrance](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000047542383/)
-:::
+```{=html}
+<div class="source-grid">
+  <article class="source-card">
+    <span class="source-type">📜</span>
+    <div class="source-body">
+      <strong class="source-title">Loi n° 2023-703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030</strong>
+      <p class="source-inst">Légifrance</p>
+      <a href="https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000047542383/" class="source-link">Consulter sur Légifrance ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}🛡️:::
-:::
-**LPM 2024-2030 — Présentation et documents officiels**
-::: {.source-inst}
-Ministère des Armées
-:::
-[Consulter defense.gouv.fr](https://www.defense.gouv.fr/actualites/articles/loi-de-programmation-militaire-2024-2030)
-:::
+  <article class="source-card">
+    <span class="source-type">🛡️</span>
+    <div class="source-body">
+      <strong class="source-title">LPM 2024-2030 — Présentation et documents officiels</strong>
+      <p class="source-inst">Ministère des Armées</p>
+      <a href="https://www.defense.gouv.fr/actualites/articles/loi-de-programmation-militaire-2024-2030" class="source-link">Consulter defense.gouv.fr ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}🏛️:::
-:::
-**Rapport sur le projet de loi de programmation militaire 2024-2030 — Sénat**
-::: {.source-inst}
-Sénat de la République française
-:::
-[Consulter senat.fr](https://www.senat.fr/travaux-parlementaires/commissions/commission-des-affaires-etrangeres-de-la-defense-et-des-forces-armees/lpm.html)
-:::
+  <article class="source-card">
+    <span class="source-type">🏛️</span>
+    <div class="source-body">
+      <strong class="source-title">Rapport sur le projet de loi de programmation militaire 2024-2030 — Sénat</strong>
+      <p class="source-inst">Sénat de la République française</p>
+      <a href="https://www.senat.fr/travaux-parlementaires/commissions/commission-des-affaires-etrangeres-de-la-defense-et-des-forces-armees/lpm.html" class="source-link">Consulter senat.fr ↗</a>
+    </div>
+  </article>
+</div>
+```
 
 ---
 

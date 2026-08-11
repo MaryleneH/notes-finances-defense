@@ -18,151 +18,158 @@ Ce site s'appuie exclusivement sur des sources institutionnelles primaires. Les 
 
 ## Textes fondamentaux
 
-::: {.source-card}
-::: {.source-icon}📜:::
-:::
-**Loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances (LOLF)**
-::: {.source-inst}
-Légifrance · Modifiée par la loi organique n° 2021-1836 du 28 décembre 2021
-:::
-[Consulter sur Légifrance](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394028/)
-:::
+```{=html}
+<div class="source-grid">
+  <article class="source-card">
+    <span class="source-type">📜</span>
+    <div class="source-body">
+      <strong class="source-title">Loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances (LOLF)</strong>
+      <p class="source-inst">Légifrance · Modifiée par la loi organique n° 2021-1836 du 28 décembre 2021</p>
+      <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394028/" class="source-link">Consulter sur Légifrance ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}📜:::
-:::
-**Constitution du 4 octobre 1958 — Article 34 (lois de programmation)**
-::: {.source-inst}
-Légifrance
-:::
-[Consulter sur Légifrance](https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194/)
-:::
+  <article class="source-card">
+    <span class="source-type">📜</span>
+    <div class="source-body">
+      <strong class="source-title">Constitution du 4 octobre 1958 — Article 34 (lois de programmation)</strong>
+      <p class="source-inst">Légifrance</p>
+      <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194/" class="source-link">Consulter sur Légifrance ↗</a>
+    </div>
+  </article>
+</div>
+```
 
 ---
 
 ## Budget de l'État
 
-::: {.source-card}
-::: {.source-icon}📘:::
-:::
-**Budget.gouv.fr — Documentation budgétaire officielle**
-::: {.source-inst}
-Direction du Budget · Ministère de l'Économie et des Finances
-:::
-[Consulter budget.gouv.fr](https://www.budget.gouv.fr/documentation/le-budget-de-letat)
-:::
+```{=html}
+<div class="source-grid">
+  <article class="source-card">
+    <span class="source-type">📘</span>
+    <div class="source-body">
+      <strong class="source-title">Budget.gouv.fr — Documentation budgétaire officielle</strong>
+      <p class="source-inst">Direction du Budget · Ministère de l'Économie et des Finances</p>
+      <a href="https://www.budget.gouv.fr/documentation/le-budget-de-letat" class="source-link">Consulter budget.gouv.fr ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}📊:::
-:::
-**Projets annuels de performances (PAP) et Rapports annuels de performances (RAP)**
-::: {.source-inst}
-Direction du Budget — annexes au PLF et au projet de loi de règlement
-:::
-[Consulter budget.gouv.fr](https://www.budget.gouv.fr/documentation/documents-budgetaires)
-:::
+  <article class="source-card">
+    <span class="source-type">📊</span>
+    <div class="source-body">
+      <strong class="source-title">Projets annuels de performances (PAP) et Rapports annuels de performances (RAP)</strong>
+      <p class="source-inst">Direction du Budget — annexes au PLF et au projet de loi de règlement</p>
+      <a href="https://www.budget.gouv.fr/documentation/documents-budgetaires" class="source-link">Consulter budget.gouv.fr ↗</a>
+    </div>
+  </article>
+</div>
+```
 
 ---
 
 ## Défense & LPM
 
-::: {.source-card}
-::: {.source-icon}🛡️:::
-:::
-**Loi n° 2023-703 du 1er août 2023 relative à la programmation militaire 2024-2030**
-::: {.source-inst}
-Légifrance
-:::
-[Consulter sur Légifrance](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000047542383/)
-:::
+```{=html}
+<div class="source-grid">
+  <article class="source-card">
+    <span class="source-type">🛡️</span>
+    <div class="source-body">
+      <strong class="source-title">Loi n° 2023-703 du 1er août 2023 relative à la programmation militaire 2024-2030</strong>
+      <p class="source-inst">Légifrance</p>
+      <a href="https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000047542383/" class="source-link">Consulter sur Légifrance ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}🛡️:::
-:::
-**LPM 2024-2030 — Présentation officielle**
-::: {.source-inst}
-Ministère des Armées
-:::
-[Consulter defense.gouv.fr](https://www.defense.gouv.fr/actualites/articles/loi-de-programmation-militaire-2024-2030)
-:::
+  <article class="source-card">
+    <span class="source-type">🛡️</span>
+    <div class="source-body">
+      <strong class="source-title">LPM 2024-2030 — Présentation officielle</strong>
+      <p class="source-inst">Ministère des Armées</p>
+      <a href="https://www.defense.gouv.fr/actualites/articles/loi-de-programmation-militaire-2024-2030" class="source-link">Consulter defense.gouv.fr ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}📊:::
-:::
-**PAP Mission Défense — Budget.gouv.fr**
-::: {.source-inst}
-Direction du Budget / Ministère des Armées
-:::
-[Consulter budget.gouv.fr](https://www.budget.gouv.fr/documentation/documents-budgetaires/exercice-2024/les-annexes-au-projet-de-loi-de-finances/projet-annuel-de-performances)
-:::
+  <article class="source-card">
+    <span class="source-type">📊</span>
+    <div class="source-body">
+      <strong class="source-title">PAP Mission Défense — Budget.gouv.fr</strong>
+      <p class="source-inst">Direction du Budget / Ministère des Armées</p>
+      <a href="https://www.budget.gouv.fr/documentation/documents-budgetaires/exercice-2024/les-annexes-au-projet-de-loi-de-finances/projet-annuel-de-performances" class="source-link">Consulter budget.gouv.fr ↗</a>
+    </div>
+  </article>
+</div>
+```
 
 ---
 
 ## Cadre européen
 
-::: {.source-card}
-::: {.source-icon}🇪🇺:::
-:::
-**Règlement (UE) 2024/1263 — Coordination des politiques économiques et surveillance budgétaire multilatérale**
-::: {.source-inst}
-EUR-Lex · Parlement européen et Conseil · 29 avril 2024
-:::
-[Consulter sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263)
-:::
+```{=html}
+<div class="source-grid">
+  <article class="source-card">
+    <span class="source-type">🇪🇺</span>
+    <div class="source-body">
+      <strong class="source-title">Règlement (UE) 2024/1263 — Coordination des politiques économiques et surveillance budgétaire multilatérale</strong>
+      <p class="source-inst">EUR-Lex · Parlement européen et Conseil · 29 avril 2024</p>
+      <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263" class="source-link">Consulter sur EUR-Lex ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}🇪🇺:::
-:::
-**Règlement (UE) 2024/1264 — Procédure de déficit excessif**
-::: {.source-inst}
-EUR-Lex · Conseil de l'Union européenne · 29 avril 2024
-:::
-[Consulter sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1264)
-:::
+  <article class="source-card">
+    <span class="source-type">🇪🇺</span>
+    <div class="source-body">
+      <strong class="source-title">Règlement (UE) 2024/1264 — Procédure de déficit excessif</strong>
+      <p class="source-inst">EUR-Lex · Conseil de l'Union européenne · 29 avril 2024</p>
+      <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1264" class="source-link">Consulter sur EUR-Lex ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}🇪🇺:::
-:::
-**Gouvernance économique européenne — Commission européenne**
-::: {.source-inst}
-Commission européenne
-:::
-[Consulter ec.europa.eu](https://ec.europa.eu/info/business-economy-euro/economic-and-fiscal-policy-coordination/eu-economic-governance-monitoring-prevention-correction_fr)
-:::
+  <article class="source-card">
+    <span class="source-type">🇪🇺</span>
+    <div class="source-body">
+      <strong class="source-title">Gouvernance économique européenne — Commission européenne</strong>
+      <p class="source-inst">Commission européenne</p>
+      <a href="https://ec.europa.eu/info/business-economy-euro/economic-and-fiscal-policy-coordination/eu-economic-governance-monitoring-prevention-correction_fr" class="source-link">Consulter ec.europa.eu ↗</a>
+    </div>
+  </article>
+</div>
+```
 
 ---
 
 ## Contrôle et évaluation
 
-::: {.source-card}
-::: {.source-icon}⚖️:::
-:::
-**Cour des comptes — Publications et rapports**
-::: {.source-inst}
-Cour des comptes
-:::
-[Consulter ccomptes.fr](https://www.ccomptes.fr/fr/publications)
-:::
+```{=html}
+<div class="source-grid">
+  <article class="source-card">
+    <span class="source-type">⚖️</span>
+    <div class="source-body">
+      <strong class="source-title">Cour des comptes — Publications et rapports</strong>
+      <p class="source-inst">Cour des comptes</p>
+      <a href="https://www.ccomptes.fr/fr/publications" class="source-link">Consulter ccomptes.fr ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}🏛️:::
-:::
-**Commission des finances de l'Assemblée nationale — Rapports**
-::: {.source-inst}
-Assemblée nationale
-:::
-[Consulter assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/commissions/cf)
-:::
+  <article class="source-card">
+    <span class="source-type">🏛️</span>
+    <div class="source-body">
+      <strong class="source-title">Commission des finances de l'Assemblée nationale — Rapports</strong>
+      <p class="source-inst">Assemblée nationale</p>
+      <a href="https://www.assemblee-nationale.fr/dyn/commissions/cf" class="source-link">Consulter assemblee-nationale.fr ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}🏛️:::
-:::
-**Commission des finances du Sénat — Rapports**
-::: {.source-inst}
-Sénat de la République française
-:::
-[Consulter senat.fr](https://www.senat.fr/commission/fin/index.html)
-:::
+  <article class="source-card">
+    <span class="source-type">🏛️</span>
+    <div class="source-body">
+      <strong class="source-title">Commission des finances du Sénat — Rapports</strong>
+      <p class="source-inst">Sénat de la République française</p>
+      <a href="https://www.senat.fr/commission/fin/index.html" class="source-link">Consulter senat.fr ↗</a>
+    </div>
+  </article>
+</div>
+```
 
 ---
 
