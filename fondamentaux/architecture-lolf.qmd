@@ -110,25 +110,27 @@ Ces deux notions font l'objet d'une [fiche détaillée dédiée →](../defense/
 
 ## Sources & pour aller plus loin
 
-::: {.source-card}
-::: {.source-icon}📜:::
-:::
-**Loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances (LOLF)**
-::: {.source-inst}
-Légifrance
-:::
-[Consulter sur Légifrance](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394028/)
-:::
+```{=html}
+<div class="source-grid">
+  <article class="source-card">
+    <span class="source-type">📜</span>
+    <div class="source-body">
+      <strong class="source-title">Loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances (LOLF)</strong>
+      <p class="source-inst">Légifrance</p>
+      <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394028/" class="source-link">Consulter sur Légifrance ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}📘:::
-:::
-**La LOLF : une nouvelle architecture du budget de l'État — Direction du Budget**
-::: {.source-inst}
-budget.gouv.fr
-:::
-[Consulter budget.gouv.fr](https://www.budget.gouv.fr/documentation/le-budget-de-letat/la-lolf)
-:::
+  <article class="source-card">
+    <span class="source-type">📘</span>
+    <div class="source-body">
+      <strong class="source-title">La LOLF : une nouvelle architecture du budget de l'État — Direction du Budget</strong>
+      <p class="source-inst">budget.gouv.fr</p>
+      <a href="https://www.budget.gouv.fr/documentation/le-budget-de-letat/la-lolf" class="source-link">Consulter budget.gouv.fr ↗</a>
+    </div>
+  </article>
+</div>
+```
 
 ---
 

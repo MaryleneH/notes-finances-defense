@@ -6,13 +6,24 @@ toc: true
 
 <p class="section-label">Fondamentaux · Fiche 01</p>
 
+<nav class="local-nav">
+  <a href="#vue-densemble">Vue d'ensemble</a>
+  <a href="#annualité-quand-">Annualité</a>
+  <a href="#unité-où-">Unité</a>
+  <a href="#universalité-comment-">Universalité</a>
+  <a href="#spécialité-pour-quoi-">Spécialité</a>
+  <a href="#sources-pour-aller-plus-loin">Sources</a>
+</nav>
+
 # Les quatre principes budgétaires
 
 <p class="page-tagline">Quatre questions. Une seule cohérence.</p>
 
 ---
 
-## La même scène, quatre angles
+## Vue d'ensemble {#vue-densemble}
+
+### La même scène, quatre angles
 
 Imaginez que le Parlement autorise **100 millions d'euros** pour une politique universitaire au titre d'une année donnée.
 
@@ -61,7 +72,7 @@ Chacune de ces questions correspond à l'un des quatre grands principes du droit
 
 ---
 
-## 1. Annualité — QUAND ?
+## 1. Annualité — QUAND ? {#annualité-quand-}
 
 ### Intuition
 
@@ -89,19 +100,24 @@ Le Parlement vote 100 M€ pour la politique universitaire au titre de l'année 
 
 Il garantit le **contrôle démocratique annuel** du Parlement sur les finances publiques. Sans lui, un gouvernement pourrait être autorisé à dépenser pour des années entières sans nouvelle délibération parlementaire.
 
-### Aménagements principaux
+<details>
+<summary>Aménagements et exceptions</summary>
 
-- **Les autorisations d'engagement (AE)** permettent à l'État de s'engager juridiquement sur plusieurs années, même si les paiements (CP) se font exercice par exercice.
-- **Les reports de crédits** permettent, sous conditions, de reporter des crédits non consommés sur l'exercice suivant.
-- Les opérations d'inventaire de fin d'exercice permettent de rattacher certaines opérations à l'exercice qui leur correspond.
+<ul>
+  <li><strong>Les autorisations d'engagement (AE)</strong> permettent à l'État de s'engager juridiquement sur plusieurs années, même si les paiements (CP) se font exercice par exercice.</li>
+  <li><strong>Les reports de crédits</strong> permettent, sous conditions, de reporter des crédits non consommés sur l'exercice suivant.</li>
+  <li>Les opérations d'inventaire de fin d'exercice permettent de rattacher certaines opérations à l'exercice qui leur correspond.</li>
+</ul>
 
-::: {.remember}
-L'annualité concerne l'**autorisation** parlementaire — pas nécessairement la durée réelle des projets. Un projet pluriannuel peut être autorisé annuellement par tranches.
-:::
+<div class="remember">
+  <p>L'annualité concerne l'<strong>autorisation</strong> parlementaire — pas nécessairement la durée réelle des projets. Un projet pluriannuel peut être autorisé annuellement par tranches.</p>
+</div>
+
+</details>
 
 ---
 
-## 2. Unité — OÙ ?
+## 2. Unité — OÙ ? {#unité-où-}
 
 ### Intuition
 
@@ -125,25 +141,28 @@ Exemple
 Les 100 M€ pour la politique universitaire ne peuvent pas figurer dans un document parallèle, un « budget annexe non officiel » ou une annexe séparée. Ils doivent apparaître dans la loi de finances soumise au Parlement.
 :::
 
-### Aménagements principaux
+<details>
+<summary>Aménagements et exceptions</summary>
 
-La LOLF reconnaît plusieurs exceptions légalement encadrées :
+<p>La LOLF reconnaît plusieurs exceptions légalement encadrées :</p>
 
-- **Les budgets annexes** (ex : publications officielles)
-- **Les comptes spéciaux** (comptes d'affectation spéciale, comptes de concours financiers, etc.)
+<ul>
+  <li><strong>Les budgets annexes</strong> (ex : publications officielles)</li>
+  <li><strong>Les comptes spéciaux</strong> (comptes d'affectation spéciale, comptes de concours financiers, etc.)</li>
+</ul>
 
-Ces exceptions sont strictement délimitées et restent soumises au vote du Parlement.
+<p>Ces exceptions sont strictement délimitées et restent soumises au vote du Parlement.</p>
 
-::: {.warning}
-::: {.warning-label}
-Attention à la confusion fréquente
-:::
-L'unité de présentation ne signifie pas qu'il n'existe qu'un seul type de recettes ou de dépenses. Elle signifie que tout cela doit **figurer dans la même loi de finances**, même si c'est dans des sections ou des comptes différents.
-:::
+<div class="warning">
+  <div class="warning-label">Attention à la confusion fréquente</div>
+  <p>L'unité de présentation ne signifie pas qu'il n'existe qu'un seul type de recettes ou de dépenses. Elle signifie que tout cela doit <strong>figurer dans la même loi de finances</strong>, même si c'est dans des sections ou des comptes différents.</p>
+</div>
+
+</details>
 
 ---
 
-## 3. Universalité — COMMENT ?
+## 3. Universalité — COMMENT ? {#universalité-comment-}
 
 ### Intuition
 
@@ -170,14 +189,19 @@ Exemple
 Si l'université perçoit des droits d'inscription (recette), ces recettes ne peuvent pas être simplement déduites des dépenses universitaires pour ne présenter que le solde net. Il faut présenter **les 100 M€ de dépenses** d'un côté **et les recettes** de l'autre.
 :::
 
-### Aménagements principaux
+<details>
+<summary>Aménagements et exceptions</summary>
 
-- Les **comptes d'affectation spéciale** constituent l'exception principale : certaines recettes peuvent y être affectées à des dépenses précises.
-- La **non-contraction** admet des exceptions dans certains budgets annexes et opérations comptables spécifiques.
+<ul>
+  <li>Les <strong>comptes d'affectation spéciale</strong> constituent l'exception principale : certaines recettes peuvent y être affectées à des dépenses précises.</li>
+  <li>La <strong>non-contraction</strong> admet des exceptions dans certains budgets annexes et opérations comptables spécifiques.</li>
+</ul>
+
+</details>
 
 ---
 
-## 4. Spécialité — POUR QUOI ?
+## 4. Spécialité — POUR QUOI ? {#spécialité-pour-quoi-}
 
 ### Intuition
 
@@ -201,16 +225,17 @@ Exemple
 Les 100 M€ votés pour la politique universitaire le sont **au sein d'un programme précis**. Le gestionnaire ne peut pas les utiliser pour financer la réparation d'une route, même si l'urgence s'impose. Cela nécessiterait un mouvement de crédits autorisé.
 :::
 
-### Pourquoi ce principe est-il essentiel pour la Défense ?
+<details>
+<summary>Aménagements et mise en œuvre</summary>
 
-La spécialité par programme est particulièrement visible dans le domaine de la Défense. Les quatre programmes de la Mission Défense (144, 146, 178, 212) ont chacun une finalité précise. Les crédits votés pour l'équipement des forces (P146) ne sont pas automatiquement fongibles avec ceux destinés à la préparation opérationnelle (P178).
+<p>La spécialité par programme est particulièrement visible dans le domaine de la Défense. Les quatre programmes de la Mission Défense (144, 146, 178, 212) ont chacun une finalité précise. Les crédits votés pour l'équipement des forces (P146) ne sont pas automatiquement fongibles avec ceux destinés à la préparation opérationnelle (P178).</p>
 
-::: {.warning}
-::: {.warning-label}
-Ne pas exagérer la rigidité
-:::
-La LOLF prévoit plusieurs mécanismes légaux de **mouvement de crédits** (virements, transferts, etc.) permettant d'ajuster l'exécution budgétaire. La spécialité encadre — elle ne fige pas totalement.
-:::
+<div class="warning">
+  <div class="warning-label">Ne pas exagérer la rigidité</div>
+  <p>La LOLF prévoit plusieurs mécanismes légaux de <strong>mouvement de crédits</strong> (virements, transferts, etc.) permettant d'ajuster l'exécution budgétaire. La spécialité encadre — elle ne fige pas totalement.</p>
+</div>
+
+</details>
 
 ---
 
@@ -226,37 +251,38 @@ Quatre questions, une cohérence — les principes classiques du droit budgétai
 
 ---
 
-## Sources & pour aller plus loin
+## Sources & pour aller plus loin {#sources-pour-aller-plus-loin}
 
-::: {.source-card}
-::: {.source-icon}📜:::
-::: 
-**Loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances (LOLF)**
-::: {.source-inst}
-Légifrance · 2001, modifiée en 2021
-:::
-[Consulter sur Légifrance](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394028/)
-:::
+```{=html}
+<div class="source-grid">
+  <article class="source-card">
+    <span class="source-type">📜</span>
+    <div class="source-body">
+      <strong class="source-title">Loi organique n° 2001-692 du 1er août 2001 relative aux lois de finances (LOLF)</strong>
+      <p class="source-inst">Légifrance · 2001, modifiée en 2021</p>
+      <a href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394028/" class="source-link">Consulter sur Légifrance ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}📘:::
-:::
-**Les finances publiques — Direction du Budget**
-::: {.source-inst}
-budget.gouv.fr
-:::
-[Consulter budget.gouv.fr](https://www.budget.gouv.fr/documentation/le-budget-de-letat/les-fondamentaux)
-:::
+  <article class="source-card">
+    <span class="source-type">📘</span>
+    <div class="source-body">
+      <strong class="source-title">Les finances publiques — Direction du Budget</strong>
+      <p class="source-inst">budget.gouv.fr</p>
+      <a href="https://www.budget.gouv.fr/documentation/le-budget-de-letat/les-fondamentaux" class="source-link">Consulter budget.gouv.fr ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}🏛️:::
-:::
-**Note d'information sur la LOLF — Assemblée nationale**
-::: {.source-inst}
-Assemblée nationale
-:::
-[Consulter assemblee-nationale.fr](https://www.assemblee-nationale.fr/dyn/finances-publiques)
-:::
+  <article class="source-card">
+    <span class="source-type">🏛️</span>
+    <div class="source-body">
+      <strong class="source-title">Note d'information sur la LOLF — Assemblée nationale</strong>
+      <p class="source-inst">Assemblée nationale</p>
+      <a href="https://www.assemblee-nationale.fr/dyn/finances-publiques" class="source-link">Consulter assemblee-nationale.fr ↗</a>
+    </div>
+  </article>
+</div>
+```
 
 ---
 

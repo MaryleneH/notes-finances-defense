@@ -51,51 +51,40 @@ Les dépenses nettes sont calculées à partir des **dépenses des administratio
 ### Les principaux retraitements
 
 ```{=html}
-<div class="timeline">
-
-  <div class="timeline-item">
-    <div class="timeline-year">Retraitement 1 — Charges d'intérêts</div>
-    <div class="timeline-content">
-      Les dépenses d'intérêts de la dette publique sont exclues du calcul. 
-      Elles ne reflètent pas les décisions de dépense actuelles du gouvernement 
-      mais les conséquences de la dette accumulée.
+<div class="retraitement-list">
+  <div class="retraitement-item">
+    <div class="retraitement-number">1</div>
+    <div class="retraitement-body">
+      <strong>Charges d'intérêts</strong> — exclues du calcul car elles reflètent la dette accumulée, pas les décisions actuelles.
     </div>
   </div>
-
-  <div class="timeline-item">
-    <div class="timeline-year">Retraitement 2 — Mesures discrétionnaires en recettes</div>
-    <div class="timeline-content">
-      Les mesures nouvelles de recettes (hausses ou baisses d'impôts décidées par le gouvernement) 
-      sont intégrées dans le calcul, en miroir des dépenses. 
-      Un gouvernement qui baisse les impôts tout en maîtrisant ses dépenses doit en rendre compte.
+  <details class="retraitement-details">
+    <summary>Voir les retraitements 2 à 5</summary>
+    <div class="retraitement-item">
+      <div class="retraitement-number">2</div>
+      <div class="retraitement-body">
+        <strong>Mesures discrétionnaires en recettes</strong> — hausses ou baisses d'impôts décidées par le gouvernement.
+      </div>
     </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-year">Retraitement 3 — Flux liés aux programmes de l'Union européenne</div>
-    <div class="timeline-content">
-      Certains flux financiers liés à des programmes européens (fonds structurels, RRF, etc.) 
-      font l'objet de retraitements spécifiques pour éviter de pénaliser les États qui 
-      utilisent ces financements.
+    <div class="retraitement-item">
+      <div class="retraitement-number">3</div>
+      <div class="retraitement-body">
+        <strong>Flux liés aux programmes UE</strong> — fonds structurels, RRF, traités spécifiquement.
+      </div>
     </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-year">Retraitement 4 — Composante cyclique des dépenses de chômage</div>
-    <div class="timeline-content">
-      La partie des indemnisations chômage qui résulte mécaniquement du cycle économique 
-      (et non d'une décision de politique publique) est neutralisée.
+    <div class="retraitement-item">
+      <div class="retraitement-number">4</div>
+      <div class="retraitement-body">
+        <strong>Composante cyclique du chômage</strong> — part mécanique neutralisée.
+      </div>
     </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-year">Retraitement 5 — Mesures ponctuelles et temporaires</div>
-    <div class="timeline-content">
-      Les dépenses ponctuelles et non reconductibles (certaines aides d'urgence, certains programmes exceptionnels) 
-      peuvent être exclues du calcul pour ne pas biaiser la trajectoire structurelle.
+    <div class="retraitement-item">
+      <div class="retraitement-number">5</div>
+      <div class="retraitement-body">
+        <strong>Mesures ponctuelles et temporaires</strong> — aides d'urgence non reconductibles exclues.
+      </div>
     </div>
-  </div>
-
+  </details>
 </div>
 ```
 
@@ -188,35 +177,36 @@ Pour consulter les documents officiels relatifs à la France :
 
 ## Sources & pour aller plus loin
 
-::: {.source-card}
-::: {.source-icon}🇪🇺:::
-:::
-**Règlement (UE) 2024/1263 du 29 avril 2024 — gouvernance économique européenne**
-::: {.source-inst}
-EUR-Lex / Parlement européen et Conseil
-:::
-[Consulter sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263)
-:::
+```{=html}
+<div class="source-grid">
+  <article class="source-card">
+    <span class="source-type">🇪🇺</span>
+    <div class="source-body">
+      <strong class="source-title">Règlement (UE) 2024/1263 du 29 avril 2024 — gouvernance économique européenne</strong>
+      <p class="source-inst">EUR-Lex / Parlement européen et Conseil</p>
+      <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1263" class="source-link">Consulter sur EUR-Lex ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}🇪🇺:::
-:::
-**Règlement (UE) 2024/1264 du 29 avril 2024 — procédure de déficit excessif**
-::: {.source-inst}
-EUR-Lex / Conseil de l'Union européenne
-:::
-[Consulter sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1264)
-:::
+  <article class="source-card">
+    <span class="source-type">🇪🇺</span>
+    <div class="source-body">
+      <strong class="source-title">Règlement (UE) 2024/1264 du 29 avril 2024 — procédure de déficit excessif</strong>
+      <p class="source-inst">EUR-Lex / Conseil de l'Union européenne</p>
+      <a href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R1264" class="source-link">Consulter sur EUR-Lex ↗</a>
+    </div>
+  </article>
 
-::: {.source-card}
-::: {.source-icon}📊:::
-:::
-**Surveillance budgétaire européenne — Commission européenne**
-::: {.source-inst}
-Commission européenne
-:::
-[Consulter ec.europa.eu](https://ec.europa.eu/info/business-economy-euro/economic-and-fiscal-policy-coordination/eu-economic-governance-monitoring-prevention-correction_fr)
-:::
+  <article class="source-card">
+    <span class="source-type">📊</span>
+    <div class="source-body">
+      <strong class="source-title">Surveillance budgétaire européenne — Commission européenne</strong>
+      <p class="source-inst">Commission européenne</p>
+      <a href="https://ec.europa.eu/info/business-economy-euro/economic-and-fiscal-policy-coordination/eu-economic-governance-monitoring-prevention-correction_fr" class="source-link">Consulter ec.europa.eu ↗</a>
+    </div>
+  </article>
+</div>
+```
 
 ---
 
