@@ -58,8 +58,6 @@ format:
   html:
     theme:
       light: [flatly, styles.scss]
-    include-after-body:
-      - _includes/tab-controls.html
     toc: true
     toc-depth: 3
     toc-title: "Sur cette page"

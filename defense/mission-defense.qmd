@@ -30,45 +30,35 @@ Quatre programmes pour répartir les moyens entre anticipation, équipement, emp
 
 ```{=html}
 <div class="overview-grid">
-  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="P144">
+  <article class="overview-card">
     <span class="overview-kicker">Anticiper</span>
     <strong class="overview-title">Programme 144</strong>
     <span class="overview-desc">Renseignement, prospective, innovation et compréhension stratégique.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="P146">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Équiper</span>
     <strong class="overview-title">Programme 146</strong>
     <span class="overview-desc">Programmes d'armement, DGA et grands engagements industriels.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="P178">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Agir</span>
     <strong class="overview-title">Programme 178</strong>
     <span class="overview-desc">Préparation opérationnelle, activité des forces et conduite des opérations.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="P212">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Soutenir</span>
     <strong class="overview-title">Programme 212</strong>
     <span class="overview-desc">Ressources humaines, immobilier, SI et fonctions transversales.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="mission-tabs" data-tab-target="Gestion">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Cadre</span>
     <strong class="overview-title">Règles de gestion</strong>
     <span class="overview-desc">Mouvements de crédits et limites à ne pas simplifier.</span>
-  </button>
+  </article>
 </div>
 ```
 
 ## Explorer les programmes {#explorer-les-programmes}
-
-```{=html}
-<div class="segmented-control">
-  <button type="button" data-tabset-target="mission-tabs" data-tab-target="P144">P144</button>
-  <button type="button" data-tabset-target="mission-tabs" data-tab-target="P146">P146</button>
-  <button type="button" data-tabset-target="mission-tabs" data-tab-target="P178">P178</button>
-  <button type="button" data-tabset-target="mission-tabs" data-tab-target="P212">P212</button>
-  <button type="button" data-tabset-target="mission-tabs" data-tab-target="Gestion">Gestion</button>
-</div>
-```
 
 ::: {.panel-tabset #mission-tabs}
 

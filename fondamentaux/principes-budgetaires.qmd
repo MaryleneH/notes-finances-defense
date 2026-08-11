@@ -24,39 +24,30 @@ Choisissez d'abord la question à laquelle vous voulez répondre.
 
 ```{=html}
 <div class="overview-grid">
-  <button type="button" class="overview-card" data-tabset-target="principes-tabs" data-tab-target="Annualité">
+  <article class="overview-card">
     <span class="overview-kicker">Quand ?</span>
     <strong class="overview-title">Annualité</strong>
     <span class="overview-desc">L'autorisation parlementaire vaut pour un exercice déterminé.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="principes-tabs" data-tab-target="Unité">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Où ?</span>
     <strong class="overview-title">Unité</strong>
     <span class="overview-desc">Toutes les recettes et dépenses doivent apparaître dans la loi de finances.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="principes-tabs" data-tab-target="Universalité">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Comment ?</span>
     <strong class="overview-title">Universalité</strong>
     <span class="overview-desc">On présente les flux pour leur montant brut, sans les masquer.</span>
-  </button>
-  <button type="button" class="overview-card" data-tabset-target="principes-tabs" data-tab-target="Spécialité">
+  </article>
+  <article class="overview-card">
     <span class="overview-kicker">Pour quoi ?</span>
     <strong class="overview-title">Spécialité</strong>
     <span class="overview-desc">Les crédits sont votés pour une finalité précise, pas pour un usage libre.</span>
-  </button>
+  </article>
 </div>
 ```
 
 ## Explorer les principes {#explorer-les-principes}
-
-```{=html}
-<div class="segmented-control">
-  <button type="button" data-tabset-target="principes-tabs" data-tab-target="Annualité">Annualité</button>
-  <button type="button" data-tabset-target="principes-tabs" data-tab-target="Unité">Unité</button>
-  <button type="button" data-tabset-target="principes-tabs" data-tab-target="Universalité">Universalité</button>
-  <button type="button" data-tabset-target="principes-tabs" data-tab-target="Spécialité">Spécialité</button>
-</div>
-```
 
 ::: {.panel-tabset #principes-tabs}
 
