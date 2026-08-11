@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" width="720" height="480" role="img" aria-label="Les quatre principes budgétaires : Annualité (QUAND ?), Unité (OÙ ?), Universalité (COMMENT ?), Spécialité (POUR QUOI ?) — tous réunis autour du concept central de BUDGET">
+  <defs>
+    <style>
+      text { font-family: 'Segoe UI', system-ui, sans-serif; }
+      .hand { font-family: 'Caveat', cursive, 'Comic Sans MS', cursive; }
+      .center-label { fill: #1F2933; font-weight: 700; font-size: 22px; }
+      .q-label { font-size: 13px; font-weight: 700; letter-spacing: .08em; }
+      .p-name { font-size: 18px; font-weight: 700; }
+      .p-desc { font-size: 12px; fill: #667085; }
+      .arrow { stroke-width: 2; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="480" fill="#FCFBF8" rx="16"/>
+
+  <!-- Center box -->
+  <rect x="290" y="200" width="140" height="60" rx="12" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="360" y="225" text-anchor="middle" class="center-label" fill="#1F2933">BUDGET</text>
+  <text x="360" y="248" text-anchor="middle" font-size="11" fill="#667085" class="hand">autorisation</text>
+
+  <!-- ANNUALITÉ — top-left -->
+  <rect x="60" y="60" width="160" height="110" rx="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="140" y="90" text-anchor="middle" class="q-label" fill="#2563EB">QUAND ?</text>
+  <text x="140" y="116" text-anchor="middle" class="p-name" fill="#1F2933">Annualité</text>
+  <text x="140" y="138" text-anchor="middle" class="p-desc">Le budget est voté et</text>
+  <text x="140" y="154" text-anchor="middle" class="p-desc">exécuté chaque année.</text>
+
+  <!-- Arrow annualité → center -->
+  <path d="M220 130 C260 160 280 200 290 220" fill="none" stroke="#2563EB" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arr-blue)"/>
+
+  <!-- UNITÉ — top-right -->
+  <rect x="500" y="60" width="160" height="110" rx="14" fill="#ECFEFF" stroke="#0891B2" stroke-width="1.5"/>
+  <text x="580" y="90" text-anchor="middle" class="q-label" fill="#0891B2">OÙ ?</text>
+  <text x="580" y="116" text-anchor="middle" class="p-name" fill="#1F2933">Unité</text>
+  <text x="580" y="138" text-anchor="middle" class="p-desc">Toutes les recettes et</text>
+  <text x="580" y="154" text-anchor="middle" class="p-desc">dépenses : un seul document.</text>
+
+  <!-- Arrow unité → center -->
+  <path d="M500 130 C465 165 445 200 430 220" fill="none" stroke="#0891B2" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arr-cyan)"/>
+
+  <!-- UNIVERSALITÉ — bottom-left -->
+  <rect x="60" y="320" width="170" height="110" rx="14" fill="#ECFDF5" stroke="#059669" stroke-width="1.5"/>
+  <text x="145" y="350" text-anchor="middle" class="q-label" fill="#059669">COMMENT ?</text>
+  <text x="145" y="376" text-anchor="middle" class="p-name" fill="#1F2933">Universalité</text>
+  <text x="145" y="398" text-anchor="middle" class="p-desc">Pas de contraction entre</text>
+  <text x="145" y="414" text-anchor="middle" class="p-desc">recettes et dépenses.</text>
+
+  <!-- Arrow universalité → center -->
+  <path d="M230 360 C260 330 280 290 290 250" fill="none" stroke="#059669" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arr-mint)"/>
+
+  <!-- SPÉCIALITÉ — bottom-right -->
+  <rect x="490" y="320" width="170" height="110" rx="14" fill="#F5F3FF" stroke="#7C3AED" stroke-width="1.5"/>
+  <text x="575" y="350" text-anchor="middle" class="q-label" fill="#7C3AED">POUR QUOI ?</text>
+  <text x="575" y="376" text-anchor="middle" class="p-name" fill="#1F2933">Spécialité</text>
+  <text x="575" y="398" text-anchor="middle" class="p-desc">Les crédits sont votés par</text>
+  <text x="575" y="414" text-anchor="middle" class="p-desc">programme, pas globalement.</text>
+
+  <!-- Arrow spécialité → center -->
+  <path d="M490 355 C465 325 445 290 430 260" fill="none" stroke="#7C3AED" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arr-violet)"/>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arr-blue" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M1 1 L7 4 L1 7 Z" fill="#2563EB"/>
+    </marker>
+    <marker id="arr-cyan" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M1 1 L7 4 L1 7 Z" fill="#0891B2"/>
+    </marker>
+    <marker id="arr-mint" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M1 1 L7 4 L1 7 Z" fill="#059669"/>
+    </marker>
+    <marker id="arr-violet" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M1 1 L7 4 L1 7 Z" fill="#7C3AED"/>
+    </marker>
+  </defs>
+
+  <!-- Caption hand note -->
+  <text x="360" y="460" text-anchor="middle" class="hand" font-size="14" fill="#98A6B9">quatre questions, une cohérence</text>
+</svg>

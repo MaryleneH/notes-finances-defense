@@ -1,0 +1,196 @@
+---
+title: "AE et CP — Autorisations d'engagement et crédits de paiement"
+description: "Comprendre la différence entre autorisations d'engagement (AE) et crédits de paiement (CP) avec l'exemple pédagogique d'une frégate."
+toc: true
+---
+
+<p class="section-label">Défense & LPM · Fiche 03</p>
+
+# Autorisations d'engagement et crédits de paiement
+
+<p class="page-tagline">S'engager et payer : deux actes distincts.</p>
+
+---
+
+## Intuition
+
+Avant toute définition, voici deux questions simples :
+
+```{=html}
+<div class="versus">
+  <div class="vs-left">
+    <span style="font-size:1.5rem">📋</span><br>
+    <strong style="color:var(--blue)">AE</strong><br>
+    <em>Autorisation d'engagement</em><br><br>
+    Jusqu'où l'État peut-il <strong>s'engager juridiquement</strong> ?<br>
+    Combien peut-il <strong>signer</strong> ?
+  </div>
+  <div class="vs-divider">≠</div>
+  <div class="vs-right">
+    <span style="font-size:1.5rem">💶</span><br>
+    <strong style="color:var(--coral)">CP</strong><br>
+    <em>Crédit de paiement</em><br><br>
+    Combien l'État peut-il effectivement <strong>payer</strong> cette année ?<br>
+    Combien peut-il <strong>décaisser</strong> ?
+  </div>
+</div>
+```
+
+::: {.concept}
+::: {.concept-label}
+LOLF, art. 8
+:::
+**Les autorisations d'engagement** constituent la limite supérieure des dépenses pouvant être **juridiquement engagées** au cours de l'exercice pour la réalisation des investissements ou pour les dépenses de fonctionnement non annuelles.
+
+**Les crédits de paiement** constituent la limite supérieure des dépenses pouvant être **ordonnancées ou payées** pendant l'année pour la couverture des engagements contractés dans le cadre des autorisations d'engagement correspondantes.
+:::
+
+---
+
+## L'exemple de la frégate
+
+> ⚠️ **Exemple 100% pédagogique et fictif.** Les chiffres et dates ci-dessous sont inventés pour illustrer le mécanisme AE/CP. Ils ne correspondent à aucun programme d'armement réel.
+
+Imaginons qu'une frégate de défense coûte **600 M€** et soit construite sur **trois ans**.
+
+### Schéma des flux AE / CP
+
+::: {.diagram-container}
+![Schéma AE/CP pour la frégate fictive : Année 1 AE 600 M€ CP 50 M€ signature, Année 2 AE 0 CP 250 M€ construction, Année 3 AE 0 CP 300 M€ livraison](../assets/diagrams/ae-cp-fregate.svg){width="100%" alt="Tableau des flux AE et CP sur trois ans pour une frégate fictive de 600 millions d'euros"}
+:::
+
+::: {.diagram-caption}
+Frégate fictive (600 M€) — illustration pédagogique du mécanisme AE/CP
+:::
+
+### Ce qui se passe année par année
+
+#### Année 1 — Signature du contrat
+
+- L'État signe un contrat avec un chantier naval : **600 M€ d'AE sont consommés** au moment de la signature.
+- Cette année, l'État paie une première tranche : **50 M€ de CP**.
+- Reste à payer les exercices suivants : 550 M€.
+
+#### Année 2 — Construction
+
+- **Pas de nouvel engagement** lié à ce contrat (l'AE a déjà été consommée en Année 1).
+- L'État paie la deuxième tranche : **250 M€ de CP**.
+- Reste à payer : 300 M€.
+
+#### Année 3 — Livraison
+
+- Toujours **pas de nouvel engagement** lié à ce contrat.
+- L'État paie le solde : **300 M€ de CP**.
+- Contrat soldé : AE consommées = CP cumulés = **600 M€**.
+
+---
+
+## La phrase clé
+
+```{=html}
+<div class="intro-quote">
+  ENGAGEMENT ≠ PAIEMENT IMMÉDIAT
+</div>
+```
+
+L'AE représente une **obligation juridique de payer dans le futur**. Elle crée une dette de l'État envers son contractant. Le CP est le moment où cette obligation se traduit en **flux de trésorerie réel**.
+
+---
+
+## Pourquoi ce système est-il indispensable pour la Défense ?
+
+Les équipements militaires sont des objets industriels **complexes et pluriannuels**. Construire un sous-marin, développer un avion de combat ou acquérir un satellite prend des années.
+
+Sans la distinction AE/CP, deux problèmes se poseraient :
+
+1. **Impossible de signer des contrats longs** sans disposer immédiatement de toute la trésorerie correspondante.
+2. **Impossible de piloter la trajectoire de paiements** sur plusieurs exercices budgétaires.
+
+La distinction AE/CP donne à l'État la capacité de **s'engager sur la durée** tout en maîtrisant ses **flux de paiement annuels**.
+
+::: {.warning}
+::: {.warning-label}
+Ce mécanisme n'est pas propre à la Défense
+:::
+La distinction AE/CP est un **mécanisme général de la LOLF**, applicable à l'ensemble des ministères pour toutes les dépenses hors dépenses de personnel (Titre 2). Elle est particulièrement visible dans le domaine de la Défense en raison de l'importance des programmes d'armement pluriannuels, mais elle s'applique aussi aux grands travaux, aux conventions pluriannuelles, etc.
+:::
+
+---
+
+## La « dette AE » : les restes à payer
+
+L'accumulation d'AE consommées mais non encore couvertes par des CP génère ce qu'on appelle les **« restes à payer »** (ou RAP dans les documents budgétaires). C'est un indicateur important pour mesurer les engagements futurs de l'État.
+
+::: {.deep-dive}
+::: {.deep-dive-label}
+Pour aller plus loin
+:::
+Les restes à payer de la Mission Défense sont particulièrement importants et font l'objet d'analyses régulières par la Cour des comptes et les commissions parlementaires. Ils traduisent les engagements pluriannuels pris dans le cadre des grands programmes d'armement.
+:::
+
+---
+
+## Récapitulatif
+
+| | AE | CP |
+|---|---|---|
+| **Question** | Jusqu'où s'engager ? | Combien payer ? |
+| **Moment** | À la signature du contrat | À chaque échéance de paiement |
+| **Durée** | Consommée une fois | Étalée sur plusieurs exercices |
+| **Suivi** | Restes à payer | Trésorerie réelle |
+
+---
+
+## Sources & pour aller plus loin
+
+::: {.source-card}
+::: {.source-icon}📜:::
+:::
+**LOLF, art. 8 — Définition des AE et CP**
+::: {.source-inst}
+Légifrance
+:::
+[Consulter sur Légifrance](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000394028/)
+:::
+
+::: {.source-card}
+::: {.source-icon}📊:::
+:::
+**Rapport de la Cour des comptes sur le budget de la Défense**
+::: {.source-inst}
+Cour des comptes
+:::
+[Consulter ccomptes.fr](https://www.ccomptes.fr/fr/publications/le-budget-et-les-comptes-de-letat)
+:::
+
+::: {.source-card}
+::: {.source-icon}📘:::
+:::
+**Le guide pratique de la LOLF — Direction du Budget**
+::: {.source-inst}
+budget.gouv.fr
+:::
+[Consulter budget.gouv.fr](https://www.budget.gouv.fr/documentation/le-budget-de-letat/la-lolf)
+:::
+
+---
+
+::: {.page-navigation}
+::: {.nav-prev}
+::: {.nav-label}
+← Fiche précédente
+:::
+::: {.nav-title}
+[La Mission Défense](mission-defense.html)
+:::
+:::
+
+::: {.nav-next}
+::: {.nav-label}
+Section suivante →
+:::
+::: {.nav-title}
+[Europe — Dépenses nettes](../europe/index.html)
+:::
+:::
+:::

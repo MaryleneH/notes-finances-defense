@@ -1,0 +1,61 @@
+---
+title: "Les fondamentaux"
+description: "Vue d'ensemble de la section fondamentaux : les bases des finances publiques françaises."
+toc: true
+---
+
+<p class="section-label">Section 01</p>
+
+# Les fondamentaux des finances publiques
+
+<p class="page-tagline">Avant de comprendre un budget, il faut comprendre à quoi il répond.</p>
+
+---
+
+Le droit budgétaire français repose sur quelques grands principes hérités de plus de deux siècles de pratique parlementaire. Ces principes ne sont pas des règles abstraites : ils répondent à des questions très concrètes sur la manière dont un État peut autoriser et contrôler ses dépenses.
+
+## Dans cette section
+
+```{=html}
+<div class="entry-cards" style="grid-template-columns: repeat(auto-fill, minmax(260px,1fr))">
+
+  <a href="principes-budgetaires.html" class="entry-card card-blue" style="text-decoration:none">
+    <div class="card-title">Les quatre principes budgétaires</div>
+    <div class="card-desc">
+      Annualité, unité, universalité, spécialité — les quatre questions fondamentales du droit budgétaire.
+    </div>
+    <div class="card-tags">
+      <span class="card-tag">Annualité</span>
+      <span class="card-tag">Unité</span>
+      <span class="card-tag">Universalité</span>
+      <span class="card-tag">Spécialité</span>
+    </div>
+  </a>
+
+  <a href="architecture-lolf.html" class="entry-card card-cyan" style="text-decoration:none">
+    <div class="card-title">Architecture de la LOLF</div>
+    <div class="card-desc">
+      Missions, programmes, actions — comment la LOLF de 2001 a structuré le budget de l'État.
+    </div>
+    <div class="card-tags">
+      <span class="card-tag">LOLF</span>
+      <span class="card-tag">Mission</span>
+      <span class="card-tag">Programme</span>
+    </div>
+  </a>
+
+</div>
+```
+
+## Idée clé
+
+::: {.concept}
+::: {.concept-label}
+À retenir en premier
+:::
+**Voter un budget, c'est donner une autorisation**, pas transférer de l'argent. Le Parlement autorise le gouvernement à engager et à payer, dans les limites et selon les finalités qu'il a fixées.
+:::
+
+---
+
+[Commencer par les quatre principes →](principes-budgetaires.html)

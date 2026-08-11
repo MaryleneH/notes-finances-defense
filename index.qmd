@@ -1,0 +1,129 @@
+---
+title: "Finances publiques"
+pagetitle: "Finances publiques françaises — notes visuelles"
+description: "Notes visuelles et pédagogiques pour comprendre les mécanismes des finances publiques françaises."
+page-layout: full
+toc: false
+---
+
+```{=html}
+<div class="hero-section">
+  <p class="hero-eyebrow">Notes personnelles de formation</p>
+  <h1 class="hero-title">
+    Finances<br><span class="accent">publiques</span>
+  </h1>
+  <p class="hero-subtitle">Comprendre les mécanismes derrière les chiffres.</p>
+  <div class="hero-divider"></div>
+  <p class="hero-desc">
+    Un carnet de notes visuelles pour explorer progressivement les finances publiques françaises :
+    principes fondamentaux, mécanique budgétaire, programmation militaire, cadre européen.
+    <br><span class="hand-note">schémas · exemples · définitions · sources</span>
+  </p>
+</div>
+```
+
+## Par où commencer ?
+
+Quatre grandes portes d'entrée pour explorer le site.
+
+```{=html}
+<div class="entry-cards">
+
+  <a href="fondamentaux/index.html" class="entry-card card-blue" style="text-decoration:none">
+    <span class="card-number">01</span>
+    <div class="card-title">Les fondamentaux</div>
+    <div class="card-desc">
+      Annualité, unité, universalité, spécialité — les quatre principes qui structurent toute la pensée budgétaire française.
+    </div>
+    <div class="card-tags">
+      <span class="card-tag">Principes</span>
+      <span class="card-tag">LOLF</span>
+      <span class="card-tag">Base</span>
+    </div>
+  </a>
+
+  <a href="defense/index.html" class="entry-card card-coral" style="text-decoration:none">
+    <span class="card-number">02</span>
+    <div class="card-title">Défense &amp; LPM</div>
+    <div class="card-desc">
+      Comprendre comment une programmation militaire pluriannuelle se transforme en crédits budgétaires annuels — de la LPM au paiement d'une frégate.
+    </div>
+    <div class="card-tags">
+      <span class="card-tag">LPM</span>
+      <span class="card-tag">AE / CP</span>
+      <span class="card-tag">Mission Défense</span>
+    </div>
+  </a>
+
+  <a href="europe/index.html" class="entry-card card-violet" style="text-decoration:none">
+    <span class="card-number">03</span>
+    <div class="card-title">Europe</div>
+    <div class="card-desc">
+      Comment les finances publiques françaises s'insèrent dans le cadre budgétaire européen — le nouveau thermomètre des dépenses nettes.
+    </div>
+    <div class="card-tags">
+      <span class="card-tag">CGO 2024</span>
+      <span class="card-tag">Dépenses nettes</span>
+      <span class="card-tag">Semestre européen</span>
+    </div>
+  </a>
+
+  <a href="glossaire.html" class="entry-card card-mint" style="text-decoration:none">
+    <span class="card-number">04</span>
+    <div class="card-title">Glossaire</div>
+    <div class="card-desc">
+      AE, CP, LOLF, LPM, PDE… Retrouvez les définitions des principaux termes des finances publiques.
+    </div>
+    <div class="card-tags">
+      <span class="card-tag">Définitions</span>
+      <span class="card-tag">Abréviations</span>
+    </div>
+  </a>
+
+</div>
+```
+
+---
+
+## Trois idées pour commencer
+
+Trois concepts fondamentaux, expliqués simplement.
+
+```{=html}
+<div class="entry-cards" style="grid-template-columns: repeat(auto-fill, minmax(220px,1fr))">
+
+  <div class="entry-card card-yellow" style="cursor:default">
+    <div class="card-title">Le budget, c'est une autorisation</div>
+    <div class="card-desc">
+      Voter un budget, c'est autoriser le gouvernement à dépenser — pas lui donner de l'argent. La distinction est capitale.
+    </div>
+  </div>
+
+  <div class="entry-card card-cyan" style="cursor:default">
+    <div class="card-title">AE ≠ CP</div>
+    <div class="card-desc">
+      S'engager (AE) et payer (CP) sont deux actes distincts. Un contrat signé aujourd'hui peut générer des paiements pendant dix ans.
+    </div>
+  </div>
+
+  <div class="entry-card card-blue" style="cursor:default">
+    <div class="card-title">La LPM n'est pas un chèque</div>
+    <div class="card-desc">
+      La loi de programmation militaire fixe des plafonds pluriannuels. Mais chaque euro n'est disponible qu'après vote du Parlement en loi de finances annuelle.
+    </div>
+  </div>
+
+</div>
+```
+
+---
+
+## À propos de ce site
+
+Ces notes sont constituées de fiches pédagogiques destinées à comprendre progressivement les finances publiques françaises. Elles mêlent définitions, exemples concrets, schémas et sources institutionnelles.
+
+::: {.remember}
+Ce site est un carnet de notes personnelles. Il ne se substitue pas aux textes juridiques officiels. Chaque page renvoie aux sources primaires.
+:::
+
+[En savoir plus sur ce projet →](about.html)
